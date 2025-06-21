@@ -4,7 +4,10 @@ a {
 }
 
 main {
-  width: min(var(--max-width, 100% - var(--padding-bg)));
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-bg);
+  width: min(var(--max-width), 100% - var(--padding-bg));
   margin-inline: auto;
 }
 
@@ -17,7 +20,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 40px;
-  aspect-ratio: 1/1;
+  width: 40px;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s ease-in-out;

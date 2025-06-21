@@ -1,0 +1,10 @@
+.hero {
+  text-align: center;
+  padding-block: var(--padding-bg);
+}
+
+@media (min-width: 48rem) {
+  h1 {
+    font-size: 50px;
+  }
+}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "./components/header/Header.jsx";
+import Hero from "./components/hero/Hero.jsx";
 
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -9,6 +10,9 @@ function App() {
   return (
     <>
       <Header menuIsOpen={menuIsOpen} onMenu={handleMenu} />
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
