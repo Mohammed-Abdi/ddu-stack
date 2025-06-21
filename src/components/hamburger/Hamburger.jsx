@@ -1,6 +1,5 @@
 import CloseAnimated from "../../assets/nav-icon/CloseAnimated.jsx";
 import HamburgerAnimated from "../../assets/nav-icon/HamburgerAnimated.jsx";
-import "./Hamburger.css";
 
 function Hamburger({ menuIsOpen, onMenu }) {
   return (
