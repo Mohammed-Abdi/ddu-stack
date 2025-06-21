@@ -17,9 +17,14 @@ function Header({ menuIsOpen, onMenu }) {
         </a>
       </div>
       <div className="right-header">
-        <div className="icon-wrapper hover-over">
+        <a
+          href="https://github.com/Mohammed-Abdi/ddu-stack"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="icon-wrapper hover-over"
+        >
           <Github className="icon" />
-        </div>
+        </a>
       </div>
     </header>
   );
