@@ -4,7 +4,7 @@ a {
 }
 
 main {
-  width: min(80rem, 100% - 1.25rem);
+  width: min(var(--max-width, 100% - var(--padding-bg)));
   margin-inline: auto;
 }
 

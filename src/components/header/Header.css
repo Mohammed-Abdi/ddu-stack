@@ -1,6 +1,7 @@
 header {
   justify-content: space-between;
-  padding: var(--padding-bg);
+  padding: var(--padding-md) var(--padding-bg);
+  width: min(var(--max-width, 100% - var(--padding-bg)));
 }
 
 header,
