@@ -1,0 +1,24 @@
+/* outfit-400 */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/outfit-v14-latin-regular.woff2") format("woff2");
+}
+/* outfit-500 */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/outfit-v14-latin-500.woff2") format("woff2");
+}
+/* outfit-600 */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/outfit-v14-latin-600.woff2") format("woff2");
+}
