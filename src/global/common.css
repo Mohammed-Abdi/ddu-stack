@@ -11,3 +11,18 @@ main {
 .icon {
   color: var(--dark-clr);
 }
+
+.hover-over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.hover-over:hover {
+  background-color: var(--dark-tr);
+}

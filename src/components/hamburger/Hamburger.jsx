@@ -4,7 +4,7 @@ import "./Hamburger.css";
 
 function Hamburger({ menuIsOpen, onMenu }) {
   return (
-    <div className="hamburger" onClick={onMenu}>
+    <div className="hover-over" onClick={onMenu}>
       {menuIsOpen ? (
         <CloseAnimated className="icon" />
       ) : (
