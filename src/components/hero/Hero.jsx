@@ -1,4 +1,3 @@
-import EmphasizedText from "../emphasized-text/EmphasizedText.jsx";
 import "./Hero.css";
 
 function Hero() {
@@ -9,8 +8,7 @@ function Hero() {
         <span style={{ color: "var(--accent-clr)" }}>Stack</span>
       </h1>
       <p>
-        No more digging through folders or broken links. Find exactly what you
-        need, instantly!
+        No more digging through folders. Find exactly what you need, instantly!
       </p>
     </section>
   );
