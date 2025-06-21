@@ -1,0 +1,20 @@
+header {
+  justify-content: space-between;
+  padding: var(--padding-bg);
+}
+
+header,
+.left-header,
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.left-header {
+  gap: var(--padding-sm);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+}

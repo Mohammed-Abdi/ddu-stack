@@ -7,3 +7,7 @@ main {
   width: min(80rem, 100% - 1.25rem);
   margin-inline: auto;
 }
+
+.icon {
+  color: var(--dark-clr);
+}
