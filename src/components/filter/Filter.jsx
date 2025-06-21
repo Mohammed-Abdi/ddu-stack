@@ -1,6 +1,6 @@
 import "./Filter.css";
 
-const filterButtons = ["All", "2nd year"];
+const filterButtons = ["2nd year", "3rd year"];
 
 function Filter() {
   return (
