@@ -11,6 +11,14 @@ main {
   margin-inline: auto;
 }
 
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .icon {
   color: var(--dark-clr);
 }

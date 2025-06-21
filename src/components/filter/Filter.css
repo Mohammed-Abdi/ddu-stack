@@ -3,3 +3,13 @@
   align-items: center;
   gap: var(--padding-bg);
 }
+
+.filter button {
+  border-bottom: 2px solid var(--dark-clr);
+  border-radius: var(--padding-sm) var(--padding-sm) 0 0;
+  transition: background 0.3s ease-in-out;
+}
+
+.filter button:hover {
+  background-color: var(--dark-tr);
+}

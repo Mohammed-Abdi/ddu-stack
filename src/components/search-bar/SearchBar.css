@@ -1,7 +1,5 @@
 .search-bar {
-  display: flex;
-  /* border: 2px solid red; */
-  max-width: 600px;
+  width: min(30rem, 100% - var(--padding-bg));
   margin-inline: auto;
   position: relative;
 }
@@ -11,15 +9,14 @@
   padding-left: calc(var(--padding-bg) * 3);
   border: none;
   background-color: var(--dark-tr);
-  border-radius: 40px;
-  flex: 1;
-  margin-inline: var(--padding-bg);
+  border-radius: 50px;
+  width: 100%;
 }
 
 .search-bar .icon {
   top: 50%;
   transform: translateY(-50%);
-  left: calc(var(--padding-bg) * 2);
+  left: var(--padding-bg);
   position: absolute;
   opacity: 0.7;
 }
