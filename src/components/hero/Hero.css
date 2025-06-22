@@ -1,6 +1,7 @@
 .hero {
   text-align: center;
   padding-block: var(--padding-bg);
+  font-size: 0.875rem;
 }
 
 @media (min-width: 48rem) {

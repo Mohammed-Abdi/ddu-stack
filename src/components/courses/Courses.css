@@ -1,7 +1,46 @@
-.materials-wrapper,
-.courses-wrapper,
-.courses-material-wrapper {
+.materials-wrapper {
   display: flex;
   gap: var(--padding-md);
   flex-direction: column;
+}
+
+.courses-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--padding-bg);
+  padding-block: var(--padding-bg);
+  min-height: 75vh;
+}
+
+.materials-wrapper {
+  gap: var(--padding-bg);
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  width: min(500px, 100%);
+  background-color: var(--light-clr);
+  border: 1px dotted var(--dark-clr);
+  height: 100vh;
+  overflow-y: auto;
+  padding: calc(var(--padding-md) * 3) var(--padding-bg);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.materials-wrapper.closed {
+  transform: translate(-50%, -50%) scaleY(0);
+}
+
+.materials-wrapper h2 {
+  text-align: center;
+}
+
+.materials-wrapper .icon {
+  position: absolute;
+  top: var(--padding-md);
+  right: var(--padding-md);
+  padding: var(--padding-md);
 }
