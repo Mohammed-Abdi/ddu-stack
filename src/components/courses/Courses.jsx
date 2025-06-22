@@ -11,10 +11,10 @@ function Courses({ search, year }) {
             .filter((material) =>
               material.search.toLowerCase().includes(search.toLowerCase())
             )
-            .map((filteredMaterial, i) => {
+            .map((filteredMaterial) => {
               return (
                 <Material
-                  key={i}
+                  key={filteredMaterial.id}
                   code={filteredMaterial.code}
                   name={filteredMaterial.name}
                   topic={filteredMaterial.topic}
@@ -34,10 +34,10 @@ function Courses({ search, year }) {
 
                   {materials
                     .filter((material) => material.code === course.code)
-                    .map((filteredMaterial, i) => {
+                    .map((filteredMaterial) => {
                       return (
                         <Material
-                          key={i}
+                          key={filteredMaterial.id}
                           code={filteredMaterial.code}
                           name={filteredMaterial.name}
                           topic={filteredMaterial.topic}
