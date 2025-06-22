@@ -25,7 +25,8 @@
   width: min(500px, 100%);
   background-color: var(--light-clr);
   border: 1px dotted var(--dark-clr);
-  height: 100vh;
+  height: 70vh;
+  border-radius: var(--padding-bg);
   overflow-y: auto;
   padding: calc(var(--padding-md) * 3) var(--padding-bg);
   transition: transform 0.3s ease-in-out;
