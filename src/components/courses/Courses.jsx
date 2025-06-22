@@ -1,6 +1,7 @@
 import "./Courses.css";
 import courses from "../../data/courses.js";
 import materials from "../../data/materials.js";
+import Material from "../material/Material.jsx";
 
 function Courses({ search, year }) {
   return (
@@ -10,30 +11,42 @@ function Courses({ search, year }) {
             .filter((material) =>
               material.search.toLowerCase().includes(search.toLowerCase())
             )
-            .map((filteredMaterial) => {
+            .map((filteredMaterial, i) => {
               return (
-                <div className="material-filtered">{filteredMaterial.name}</div>
+                <Material
+                  key={i}
+                  code={filteredMaterial.code}
+                  name={filteredMaterial.name}
+                  topic={filteredMaterial.topic}
+                  chapter={filteredMaterial.chapter}
+                  format={filteredMaterial.format}
+                />
               );
             })
         : courses
             .filter((course) => course.year == year)
             .map((course, i) => {
               return (
-                <>
+                <div key={i}>
                   <div key={i} className="course">
                     {course.name}
                   </div>
 
                   {materials
                     .filter((material) => material.code === course.code)
-                    .map((material, index) => {
+                    .map((filteredMaterial, i) => {
                       return (
-                        <div key={index} className="course-chapters">
-                          {material.name + " " + material.chapter}
-                        </div>
+                        <Material
+                          key={i}
+                          code={filteredMaterial.code}
+                          name={filteredMaterial.name}
+                          topic={filteredMaterial.topic}
+                          chapter={filteredMaterial.chapter}
+                          format={filteredMaterial.format}
+                        />
                       );
                     })}
-                </>
+                </div>
               );
             })}
     </div>
