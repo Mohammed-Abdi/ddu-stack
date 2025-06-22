@@ -12,7 +12,6 @@
   gap: var(--padding-bg);
   padding-block: var(--padding-bg);
   min-height: 75vh;
-  border: 2px solid red;
 }
 
 .materials-wrapper {
