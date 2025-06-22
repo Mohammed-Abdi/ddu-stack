@@ -1,34 +1,38 @@
+import { useId } from "react";
+
 export default function Doc(props) {
+  const id = useId();
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={48}
-      height={48}
+      width={32}
+      height={32}
       viewBox="0 0 48 48"
       {...props}
     >
       <g fill="none">
         <path
-          fill="url(#fluentColorDocumentText480)"
+          fill={`url(#${id}-fluentColorDocumentText480)`}
           d="M11 43h26a3 3 0 0 0 3-3V18l-10-4l-4-10H11a3 3 0 0 0-3 3v33a3 3 0 0 0 3 3"
         ></path>
         <path
-          fill="url(#fluentColorDocumentText483)"
+          fill={`url(#${id}-fluentColorDocumentText483)`}
           fillOpacity={0.5}
           d="M11 43h26a3 3 0 0 0 3-3V18l-10-4l-4-10H11a3 3 0 0 0-3 3v33a3 3 0 0 0 3 3"
         ></path>
         <path
-          fill="url(#fluentColorDocumentText481)"
+          fill={`url(#${id}-fluentColorDocumentText481)`}
           d="M26 15V4l14 14H29a3 3 0 0 1-3-3"
         ></path>
         <path
-          fill="url(#fluentColorDocumentText482)"
+          fill={`url(#${id}-fluentColorDocumentText482)`}
           fillOpacity={0.9}
           d="M16.25 23a1.25 1.25 0 1 0 0 2.5h15.5a1.25 1.25 0 1 0 0-2.5zM15 30.25c0-.69.56-1.25 1.25-1.25h15.5a1.25 1.25 0 1 1 0 2.5h-15.5c-.69 0-1.25-.56-1.25-1.25M16.25 35a1.25 1.25 0 1 0 0 2.5h15.5a1.25 1.25 0 1 0 0-2.5z"
         ></path>
         <defs>
           <linearGradient
-            id="fluentColorDocumentText480"
+            id={`${id}-fluentColorDocumentText480`}
             x1={30.4}
             x2={33.484}
             y1={4}
@@ -39,7 +43,7 @@ export default function Doc(props) {
             <stop offset={1} stopColor="#1A73E8"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorDocumentText481"
+            id={`${id}-fluentColorDocumentText481`}
             x1={32.977}
             x2={29.477}
             y1={9.833}
@@ -50,7 +54,7 @@ export default function Doc(props) {
             <stop offset={1} stopColor="#CCE9FF"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorDocumentText482"
+            id={`${id}-fluentColorDocumentText482`}
             x1={33}
             x2={17.47}
             y1={43.3}
@@ -61,7 +65,7 @@ export default function Doc(props) {
             <stop offset={1} stopColor="#ffffff"></stop>
           </linearGradient>
           <radialGradient
-            id="fluentColorDocumentText483"
+            id={`${id}-fluentColorDocumentText483`}
             cx={0}
             cy={0}
             r={1}
