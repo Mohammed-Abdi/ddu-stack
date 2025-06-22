@@ -7,10 +7,18 @@
 
 .material {
   align-items: center;
-  border: 1px solid var(--dark-clr);
+  border: 1px dotted var(--dark-clr);
   position: relative;
+  justify-content: space-between;
   padding: var(--padding-md);
   border-radius: var(--padding-md);
+  width: min(400px, 100%);
+}
+
+.material-info-wrapper {
+  display: flex;
+  gap: var(--padding-md);
+  align-items: center;
 }
 
 .material-detail {
@@ -23,16 +31,23 @@
   right: var(--padding-md);
   font-size: 0.5rem;
   font-weight: 500;
-  opacity: 0.7;
+  opacity: 0;
 }
 
 .material .topic {
   font-weight: 500;
+  font-size: 0.875rem;
 }
 
 .material .chapter,
 .material .name {
   font-size: 0.75rem;
   font-weight: 500;
-  opacity: 0.7;
+  opacity: 0.5;
+}
+
+.material-buttons .download {
+  border-radius: 50%;
+  opacity: 0.5;
+  padding: 7px;
 }

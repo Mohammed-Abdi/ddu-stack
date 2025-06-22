@@ -1,0 +1,7 @@
+.materials-wrapper,
+.courses-wrapper,
+.courses-material-wrapper {
+  display: flex;
+  gap: var(--padding-md);
+  flex-direction: column;
+}

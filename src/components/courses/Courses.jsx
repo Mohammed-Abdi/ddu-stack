@@ -20,6 +20,7 @@ function Courses({ search, year }) {
                   topic={filteredMaterial.topic}
                   chapter={filteredMaterial.chapter}
                   format={filteredMaterial.format}
+                  path={filteredMaterial.path}
                 />
               );
             })
@@ -27,25 +28,28 @@ function Courses({ search, year }) {
             .filter((course) => course.year == year)
             .map((course, i) => {
               return (
-                <div key={i}>
+                <div key={i} className="courses-material-wrapper">
                   <div key={i} className="course">
                     {course.name}
                   </div>
 
-                  {materials
-                    .filter((material) => material.code === course.code)
-                    .map((filteredMaterial) => {
-                      return (
-                        <Material
-                          key={filteredMaterial.id}
-                          code={filteredMaterial.code}
-                          name={filteredMaterial.name}
-                          topic={filteredMaterial.topic}
-                          chapter={filteredMaterial.chapter}
-                          format={filteredMaterial.format}
-                        />
-                      );
-                    })}
+                  <div className="materials-wrapper">
+                    {materials
+                      .filter((material) => material.code === course.code)
+                      .map((filteredMaterial) => {
+                        return (
+                          <Material
+                            key={filteredMaterial.id}
+                            code={filteredMaterial.code}
+                            name={filteredMaterial.name}
+                            topic={filteredMaterial.topic}
+                            chapter={filteredMaterial.chapter}
+                            format={filteredMaterial.format}
+                            path={filteredMaterial.path}
+                          />
+                        );
+                      })}
+                  </div>
                 </div>
               );
             })}
