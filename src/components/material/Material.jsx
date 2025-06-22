@@ -19,7 +19,9 @@ function Material({ code, name, topic, chapter, format }) {
   }
   return (
     <div className="material">
-      <div className="material-icon">{Icon}</div>
+      <div className="material-icon">
+        <Icon />
+      </div>
       <div className="material-detail">
         <h2>{topic}</h2>
         <h3>{`Chapter ${chapter}`}</h3>
