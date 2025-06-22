@@ -1,13 +1,14 @@
 import "./Filter.css";
 
-const filterButtons = ["2nd year", "3rd year"];
-
-function Filter() {
+function Filter({ setYear }) {
   return (
     <div className="filter">
-      {filterButtons.map((button, i) => {
-        return <button key={i}>{button}</button>;
-      })}
+      <button value={2017} onClick={(e) => setYear(Number(e.target.value))}>
+        2nd year
+      </button>
+      <button value={2018} onClick={(e) => setYear(Number(e.target.value))}>
+        3rd year
+      </button>
     </div>
   );
 }
