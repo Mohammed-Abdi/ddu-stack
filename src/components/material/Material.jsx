@@ -5,22 +5,19 @@ import Pptx from "../../assets/file-icon/Pptx.jsx";
 import Xml from "../../assets/file-icon/Xml.jsx";
 
 function Material({ code, name, topic, chapter, format }) {
-  let Icon;
-  if (format.toLowerCase() === "pdf") {
-    Icon = Pdf;
-  } else if (format.toLowerCase() === "pptx") {
-    Icon = Pptx;
-  } else if (format.toLowerCase() === "xml") {
-    Icon = Xml;
-  } else if (format.toLowerCase() === "doc") {
-    Icon = Doc;
-  } else {
-    return;
-  }
+  console.log("format", format);
   return (
     <div className="material">
       <div className="material-icon">
-        <Icon />
+        {format === "pdf" ? (
+          <Pdf />
+        ) : format === "pptx" ? (
+          <Pptx />
+        ) : format === "xml" ? (
+          <Xml />
+        ) : (
+          <Doc />
+        )}
       </div>
       <div className="material-detail">
         <h2>{topic}</h2>

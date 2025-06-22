@@ -1,5 +1,6 @@
 const materials = [
   {
+    id: "SOEng2022CH1",
     name: "Data structure and algorithms",
     chapter: 1,
     topic: "Introduction to data structure and algorithms",
@@ -10,6 +11,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-1.pdf",
   },
   {
+    id: "SOEng2022CH2",
     name: "Data structure and algorithms",
     chapter: 2,
     topic: "Simple sorting and searching algorithms",
@@ -20,6 +22,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-2.pdf",
   },
   {
+    id: "SOEng2022CH3",
     name: "Data structure and algorithms",
     chapter: 3,
     topic: "Linked list data structure and its applications",
@@ -30,6 +33,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-3.pdf",
   },
   {
+    id: "SOEng2022CH4",
     name: "Data structure and algorithms",
     chapter: 4,
     topic: "Stack and its application",
@@ -40,6 +44,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-4.pdf",
   },
   {
+    id: "SOEng2022CH5",
     name: "Data structure and algorithms",
     chapter: 5,
     topic: "Queue and its application",
@@ -50,6 +55,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-5.pdf",
   },
   {
+    id: "SOEng2022CH6",
     name: "Data structure and algorithms",
     chapter: 6,
     topic: "Graph and its application",
@@ -60,6 +66,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-6.pdf",
   },
   {
+    id: "SOEng2022CH7",
     name: "Data structure and algorithms",
     chapter: 7,
     topic: "Tree and its application",
@@ -70,6 +77,7 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-7.pdf",
   },
   {
+    id: "SOEng2042CH1",
     name: "Fundamentals of database",
     chapter: 1,
     topic: "Introduction to database system",
@@ -80,6 +88,7 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-1.pdf",
   },
   {
+    id: "SOEng2042CH2",
     name: "Fundamentals of database",
     chapter: 2,
     topic: "Relational model",
@@ -89,6 +98,7 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-2.pdf",
   },
   {
+    id: "SOEng2042CH3",
     name: "Fundamentals of database",
     chapter: 3,
     topic: "conceptual design: ER modeling",
@@ -99,6 +109,7 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-3.pdf",
   },
   {
+    id: "SOEng2042CH4",
     name: "Fundamentals of database",
     chapter: 4,
     topic: "Functional Dependencies and normalization for relational database",
@@ -109,6 +120,7 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-4.pdf",
   },
   {
+    id: "SOEng2042CH1-4",
     name: "Fundamentals of database",
     chapter: "1-4",
     topic: "",
@@ -119,6 +131,7 @@ const materials = [
     path: "/docs/fundamentals-of-database-short-note.pdf",
   },
   {
+    id: "SOEng2054CH1",
     name: "Advanced software engineering",
     chapter: 1,
     topic: "Software testing",
@@ -128,6 +141,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-1.pdf",
   },
   {
+    id: "SOEng2054CH2",
     name: "Advanced software engineering",
     chapter: 2,
     topic: "Software maintenance",
@@ -137,6 +151,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-2.pdf",
   },
   {
+    id: "SOEng2054CH3",
     name: "Advanced software engineering",
     chapter: 3,
     topic: "Software process improvement",
@@ -147,6 +162,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-3.pdf",
   },
   {
+    id: "SOEng2054CH4",
     name: "Advanced software engineering",
     chapter: 4,
     topic: "Software reuse",
@@ -156,6 +172,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-4.pdf",
   },
   {
+    id: "SOEng2054CH5",
     name: "Advanced software engineering",
     chapter: 5,
     topic: "component based software engineering",
@@ -166,6 +183,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-5.pdf",
   },
   {
+    id: "SOEng2054CH6",
     name: "Advanced software engineering",
     chapter: 6,
     topic: "Service oriented software engineering",
@@ -176,6 +194,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-6.pdf",
   },
   {
+    id: "SOEng2054CH7",
     name: "Advanced software engineering",
     chapter: 7,
     topic: "Real time software engineering",
@@ -186,6 +205,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-7.pdf",
   },
   {
+    id: "SOEng2054CH8",
     name: "Advanced software engineering",
     chapter: 8,
     topic: "Aspect oriented software engineering",
@@ -196,6 +216,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-8.pdf",
   },
   {
+    id: "SOEng2054CH9",
     name: "Advanced software engineering",
     chapter: 9,
     topic: "Emerging trends in software engineering",
@@ -206,6 +227,7 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-9.pdf",
   },
   {
+    id: "ECEG2142CH1",
     name: "Digital logic design",
     chapter: 1,
     topic: "Introduction to digital systems",
@@ -216,6 +238,7 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-1.pptx",
   },
   {
+    id: "ECEG2142CH2",
     name: "Digital logic design",
     chapter: 2,
     topic: "Number system, operations and codes",
@@ -226,6 +249,7 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-2.pptx",
   },
   {
+    id: "ECEG2142CH3",
     name: "Digital logic design",
     chapter: 3,
     topic: "Logic gates",
@@ -235,6 +259,7 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-3.pptx",
   },
   {
+    id: "ECEG2142CH4",
     name: "Digital logic design",
     chapter: 4,
     topic: "Boolean algebra and logic simplification",
@@ -245,6 +270,7 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-4.pptx",
   },
   {
+    id: "ECEG2142CH5",
     name: "Digital logic design",
     chapter: 5,
     topic: "Combinational logic circuit analysis",
@@ -255,6 +281,7 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-5.pptx",
   },
   {
+    id: "SOEng2052CH1-8",
     name: "Object oriented system analysis and design",
     chapter: "1-8",
     topic: "All chapters",
@@ -265,6 +292,7 @@ const materials = [
     path: "/docs/object-oriented-system-analysis-and-design-all-chapters.pdf",
   },
   {
+    id: "SOEng2032CH1",
     name: "Operating systems",
     chapter: 1,
     topic: "Operating systems",
@@ -274,6 +302,7 @@ const materials = [
     path: "/docs/operating-systems-chapter-1.pdf",
   },
   {
+    id: "SOEng2032CH2",
     name: "Operating systems",
     chapter: 2,
     topic: "Process management",
@@ -283,6 +312,7 @@ const materials = [
     path: "/docs/operating-systems-chapter-2.pdf",
   },
   {
+    id: "SOEng2032CH3",
     name: "Operating systems",
     chapter: 3,
     topic: "Memory management",
@@ -292,6 +322,7 @@ const materials = [
     path: "/docs/operating-systems-chapter-3.pdf",
   },
   {
+    id: "SOEng2032CH4",
     name: "Operating systems",
     chapter: 4,
     topic: "Device management",
@@ -301,6 +332,7 @@ const materials = [
     path: "/docs/operating-systems-chapter-4.pdf",
   },
   {
+    id: "SOEng2032CH5",
     name: "Operating systems",
     chapter: 5,
     topic: "File system",
@@ -310,6 +342,7 @@ const materials = [
     path: "/docs/operating-systems-chapter-5.pdf",
   },
   {
+    id: "SOEng2032CH6",
     name: "Operating systems",
     chapter: 6,
     topic: "Operating system security and protection",
@@ -320,6 +353,7 @@ const materials = [
     path: "/docs/operating-systems-chapter-6.pdf",
   },
   {
+    id: "SOEng2051CH1",
     name: "Fundamentals of software engineering",
     chapter: 1,
     topic: "Introduction to software engineering",
@@ -330,6 +364,7 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-1.pptx",
   },
   {
+    id: "SOEng2051CH2",
     name: "Fundamentals of software engineering",
     chapter: 2,
     topic: "Software process and its models",
@@ -340,6 +375,7 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-2.pptx",
   },
   {
+    id: "SOEng2051CH3",
     name: "Fundamentals of software engineering",
     chapter: 3,
     topic: "Agile development",
@@ -350,6 +386,7 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-3.pptx",
   },
   {
+    id: "SOEng2051CH4",
     name: "Fundamentals of software engineering",
     chapter: 4,
     topic: "Software design",
@@ -360,6 +397,7 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-4.pptx",
   },
   {
+    id: "SOEng2051CH5",
     name: "Fundamentals of software engineering",
     chapter: 5,
     topic: "Coding",
@@ -369,6 +407,7 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-5.pptx",
   },
   {
+    id: "SOEng2051CH6",
     name: "Fundamentals of software engineering",
     chapter: 6,
     topic: "Project management",
@@ -379,6 +418,7 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-6.pptx",
   },
   {
+    id: "SOEng2021CH1",
     name: "Fundamentals of programming II",
     chapter: 1,
     topic: "Basics of programming",
@@ -388,6 +428,7 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-1.pdf",
   },
   {
+    id: "SOEng2021CH2",
     name: "Fundamentals of programming II",
     chapter: 2,
     topic: "Array, and String",
@@ -397,6 +438,7 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-2.pdf",
   },
   {
+    id: "SOEng2021CH3",
     name: "Fundamentals of programming II",
     chapter: 3,
     topic: "pointer",
@@ -406,6 +448,7 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-3.pdf",
   },
   {
+    id: "SOEng2021CH4",
     name: "Fundamentals of programming II",
     chapter: 4,
     topic: "File",
@@ -415,6 +458,7 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-4.pdf",
   },
   {
+    id: "SOEng2021CH5",
     name: "Fundamentals of programming II",
     chapter: 5,
     topic: "C++ object oriented programming",
