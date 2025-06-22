@@ -13,7 +13,8 @@
   padding: var(--padding-md);
   border-radius: var(--padding-md);
   width: min(400px, 100%);
-  height: fit-content;
+  max-height: 100px;
+  flex: 1;
 }
 
 .material-info-wrapper {

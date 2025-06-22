@@ -5,12 +5,14 @@
 }
 
 .courses-wrapper {
-  display: flex;
+  display: grid;
   justify-content: center;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, 300px);
+  width: 100%;
   gap: var(--padding-bg);
   padding-block: var(--padding-bg);
   min-height: 75vh;
+  border: 2px solid red;
 }
 
 .materials-wrapper {
