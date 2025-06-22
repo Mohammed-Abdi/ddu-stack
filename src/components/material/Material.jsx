@@ -5,7 +5,6 @@ import Pptx from "../../assets/file-icon/Pptx.jsx";
 import Xml from "../../assets/file-icon/Xml.jsx";
 
 function Material({ code, name, topic, chapter, format }) {
-  console.log("format", format);
   return (
     <div className="material">
       <div className="material-icon">
@@ -20,10 +19,10 @@ function Material({ code, name, topic, chapter, format }) {
         )}
       </div>
       <div className="material-detail">
-        <h2>{topic}</h2>
-        <h3>{`Chapter ${chapter}`}</h3>
-        <h4>{name}</h4>
-        <h5>{code}</h5>
+        <span className="chapter">{`Chapter ${chapter}`}</span>
+        <span className="topic">{topic}</span>
+        <span className="name">{name}</span>
+        <span className="code">{code}</span>
       </div>
       <div className="material-buttons"></div>
     </div>
