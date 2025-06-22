@@ -1,15 +1,15 @@
 import "./Courses.css";
-import materials from "../../data/materials.js";
+import courses from "../../data/courses.js";
 
 function Courses({ year }) {
   return (
     <div className="courses-wrapper">
-      {materials
-        .filter((material) => material.year == year)
-        .map((material, i) => {
+      {courses
+        .filter((course) => course.year == year)
+        .map((course, i) => {
           return (
-            <div key={i} className="material">
-              {material.name}
+            <div key={i} className="course">
+              {course.name}
             </div>
           );
         })}
