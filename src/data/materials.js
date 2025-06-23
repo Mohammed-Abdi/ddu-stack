@@ -9,6 +9,7 @@ const materials = [
       "data structure and algorithms chapter one chapter 1 Introduction to data structure and algorithms",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-1.pdf",
+    size: "422 KB",
   },
   {
     id: "SOEng2022CH2",
@@ -20,6 +21,7 @@ const materials = [
       "data structure and algorithms chapter two chapter 2 Simple sorting and searching algorithms",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-2.pdf",
+    size: "1.18 MB",
   },
   {
     id: "SOEng2022CH3",
@@ -31,6 +33,7 @@ const materials = [
       "data structure and algorithms chapter three chapter 3 Linked list data structure and its applications",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-3.pdf",
+    size: "837 KB",
   },
   {
     id: "SOEng2022CH4",
@@ -42,6 +45,7 @@ const materials = [
       "data structure and algorithms chapter four chapter 4 Stack and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-4.pdf",
+    size: "2.37 MB",
   },
   {
     id: "SOEng2022CH5",
@@ -53,6 +57,7 @@ const materials = [
       "data structure and algorithms chapter five chapter 5 Queue and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-5.pdf",
+    size: "1.40 MB",
   },
   {
     id: "SOEng2022CH6",
@@ -64,6 +69,7 @@ const materials = [
       "data structure and algorithms chapter six chapter 6 Graph and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-6.pdf",
+    size: "3.10 MB",
   },
   {
     id: "SOEng2022CH7",
@@ -75,6 +81,7 @@ const materials = [
       "data structure and algorithms chapter seven chapter 7 Tree and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-7.pdf",
+    size: "2.49 MB",
   },
   {
     id: "SOEng2042CH1",
@@ -86,6 +93,7 @@ const materials = [
       "fundamentals of database chapter one chapter 1 Introduction to database system",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-1.pdf",
+    size: "255 KB",
   },
   {
     id: "SOEng2042CH2",
@@ -96,6 +104,7 @@ const materials = [
     search: "fundamentals of database chapter two chapter 2 Relational model",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-2.pdf",
+    size: "261 KB",
   },
   {
     id: "SOEng2042CH3",
@@ -107,6 +116,7 @@ const materials = [
       "fundamentals of database chapter three chapter 3 conceptual design ER modeling",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-3.pdf",
+    size: "552 KB",
   },
   {
     id: "SOEng2042CH4",
@@ -118,6 +128,7 @@ const materials = [
       "fundamentals of database chapter four chapter 4 Functional Dependencies and normalization for relational database",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-4.pdf",
+    size: "256 KB",
   },
   {
     id: "SOEng2042CH1-4",
@@ -129,6 +140,7 @@ const materials = [
       "fundamentals of database chapter one chapter two chapter three chapter four  chapter 1 chapter 2 chapter 3 chapter 4 Introduction to database system Relational model conceptual design ER modeling Functional Dependencies and normalization for relational database",
     format: "pdf",
     path: "/docs/fundamentals-of-database-short-note.pdf",
+    size: "1.30 MB",
   },
   {
     id: "SOEng2054CH1",
@@ -140,6 +152,7 @@ const materials = [
       "advanced software engineering chapter one chapter 1 Software testing",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-1.pdf",
+    size: "0.99 MB",
   },
   {
     id: "SOEng2054CH2",
@@ -151,6 +164,7 @@ const materials = [
       "advanced software engineering chapter two chapter 2 Software maintenance",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-2.pdf",
+    size: "631 KB",
   },
   {
     id: "SOEng2054CH3",
@@ -162,6 +176,7 @@ const materials = [
       "advanced software engineering chapter three chapter 3 Software process improvement spi",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-3.pdf",
+    size: "580 KB",
   },
   {
     id: "SOEng2054CH4",
@@ -173,6 +188,7 @@ const materials = [
       "advanced software engineering chapter four chapter 4 Software reuse sr",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-4.pdf",
+    size: "543 KB",
   },
   {
     id: "SOEng2054CH5",
@@ -184,6 +200,7 @@ const materials = [
       "advanced software engineering chapter five chapter 5 component based software engineering CbSe",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-5.pdf",
+    size: "0.99 MB",
   },
   {
     id: "SOEng2054CH6",
@@ -195,6 +212,7 @@ const materials = [
       "advanced software engineering chapter six chapter 6 Service oriented software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-6.pdf",
+    size: "1.03 MB",
   },
   {
     id: "SOEng2054CH7",
@@ -206,6 +224,7 @@ const materials = [
       "advanced software engineering chapter seven chapter 7 Real time software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-7.pdf",
+    size: "0.89 MB",
   },
   {
     id: "SOEng2054CH8",
@@ -217,6 +236,7 @@ const materials = [
       "advanced software engineering chapter eight chapter 8 Aspect oriented software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-8.pdf",
+    size: "535 KB",
   },
   {
     id: "SOEng2054CH9",
@@ -228,6 +248,7 @@ const materials = [
       "advanced software engineering chapter nine chapter 9 Emerging trends in software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-9.pdf",
+    size: "397 KB",
   },
   {
     id: "ECEG2142CH1",
@@ -239,6 +260,7 @@ const materials = [
       "digital logic design chapter one chapter 1 Introduction to digital systems",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-1.pptx",
+    size: "83.4 KB",
   },
   {
     id: "ECEG2142CH2",
@@ -250,6 +272,7 @@ const materials = [
       "digital logic design chapter two chapter 2 Number system operations and codes",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-2.pptx",
+    size: "1.65 MB",
   },
   {
     id: "ECEG2142CH3",
@@ -260,6 +283,7 @@ const materials = [
     search: "digital logic design chapter three chapter 3 Logic gates",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-3.pptx",
+    size: "2.07 MB",
   },
   {
     id: "ECEG2142CH4",
@@ -271,6 +295,7 @@ const materials = [
       "digital logic design chapter four chapter 4 Boolean algebra and logic simplification",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-4.pptx",
+    size: "1.95 MB",
   },
   {
     id: "ECEG2142CH5",
@@ -282,6 +307,7 @@ const materials = [
       "digital logic design chapter five chapter 5 Combinational logic circuit analysis",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-5.pptx",
+    size: "2.51 MB",
   },
   {
     id: "SOEng2052CH1-8",
@@ -293,6 +319,7 @@ const materials = [
       "object oriented system analysis and design chapter one chapter 1 object oriented the new software paradigm chapter two chapter 2 understanding the basics of object orientation chapter three chapter 3 gathering user requirements chapter four chapter 4 ensuring your requirements are correct chapter five chapter 5 determining what to build object oriented analysis chapter six chapter 6 determining how to build your system object oriented design chapter seven chapter 7 object oriented testing and maintenance chapter eight chapter 8 software process",
     format: "pdf",
     path: "/docs/object-oriented-system-analysis-and-design-all-chapters.pdf",
+    size: "3.47 MB",
   },
   {
     id: "SOEng2032CH1",
@@ -303,6 +330,7 @@ const materials = [
     search: "operating systems chapter one chapter 1 operating systems",
     format: "pdf",
     path: "/docs/operating-systems-chapter-1.pdf",
+    size: "1.32 MB",
   },
   {
     id: "SOEng2032CH2",
@@ -313,6 +341,7 @@ const materials = [
     search: "operating systems chapter two chapter 2 process management",
     format: "pdf",
     path: "/docs/operating-systems-chapter-2.pdf",
+    size: "1.33 MB",
   },
   {
     id: "SOEng2032CH3",
@@ -323,6 +352,7 @@ const materials = [
     search: "operating systems chapter three chapter 3 memory management",
     format: "pdf",
     path: "/docs/operating-systems-chapter-3.pdf",
+    size: "1.26 MB",
   },
   {
     id: "SOEng2032CH4",
@@ -333,6 +363,7 @@ const materials = [
     search: "operating systems chapter four chapter 4 Device management",
     format: "pdf",
     path: "/docs/operating-systems-chapter-4.pdf",
+    size: "1.25 MB",
   },
   {
     id: "SOEng2032CH5",
@@ -343,6 +374,7 @@ const materials = [
     search: "operating systems chapter five chapter 5 file system",
     format: "pdf",
     path: "/docs/operating-systems-chapter-5.pdf",
+    size: "1.84 MB",
   },
   {
     id: "SOEng2032CH6",
@@ -354,6 +386,7 @@ const materials = [
       "operating systems chapter six chapter 6 Operating system security and protection",
     format: "pdf",
     path: "/docs/operating-systems-chapter-6.pdf",
+    size: "2.74 MB",
   },
   {
     id: "SOEng2051CH1",
@@ -365,6 +398,7 @@ const materials = [
       "fundamentals of software engineering chapter one chapter 1 Introduction to software engineering",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-1.pptx",
+    size: "159 KB",
   },
   {
     id: "SOEng2051CH2",
@@ -376,6 +410,7 @@ const materials = [
       "fundamentals of software engineering chapter two chapter 2 software process models",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-2.pptx",
+    size: "269 KB",
   },
   {
     id: "SOEng2051CH3",
@@ -387,6 +422,7 @@ const materials = [
       "fundamentals of software engineering chapter three chapter 3 agile development",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-3.pptx",
+    size: "169 KB",
   },
   {
     id: "SOEng2051CH4",
@@ -398,6 +434,7 @@ const materials = [
       "fundamentals of software engineering chapter four chapter 4 software design",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-4.pptx",
+    size: "1.59 MB",
   },
   {
     id: "SOEng2051CH5",
@@ -409,6 +446,7 @@ const materials = [
       "fundamentals of software engineering chapter five chapter 5 coding",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-5.pptx",
+    size: "161 KB",
   },
   {
     id: "SOEng2051CH6",
@@ -420,6 +458,7 @@ const materials = [
       "fundamentals of software engineering chapter six chapter 6 Project management",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-6.pptx",
+    size: "657 KB",
   },
   {
     id: "SOEng2021CH1",
@@ -431,6 +470,7 @@ const materials = [
       "fundamentals of programming chapter one chapter 1 Basics of programming",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-1.pdf",
+    size: "1.28 MB",
   },
   {
     id: "SOEng2021CH2",
@@ -442,6 +482,7 @@ const materials = [
       "fundamentals of programming chapter two chapter 2 array and string arrays and string array, and string",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-2.pdf",
+    size: "1.06 MB",
   },
   {
     id: "SOEng2021CH3",
@@ -452,6 +493,7 @@ const materials = [
     search: "fundamentals of programming chapter three chapter 3 pointers",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-3.pdf",
+    size: "615 KB",
   },
   {
     id: "SOEng2021CH4",
@@ -462,6 +504,7 @@ const materials = [
     search: "fundamentals of programming chapter four chapter 4 file",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-4.pdf",
+    size: "631 KB",
   },
   {
     id: "SOEng2021CH5",
@@ -473,6 +516,7 @@ const materials = [
       "fundamentals of programming chapter five chapter 5  c++ plus plus object oriented programming",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-5.pdf",
+    size: "749 KB",
   },
 ];
 
