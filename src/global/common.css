@@ -34,6 +34,8 @@ button {
   transition: background 0.3s ease-in-out;
 }
 
-.hover-over:hover {
-  background-color: var(--dark-tr);
+@media (min-width: 768px) {
+  .hover-over:hover {
+    background-color: var(--dark-tr);
+  }
 }
