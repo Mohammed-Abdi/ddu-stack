@@ -33,10 +33,15 @@
   opacity: 0.5;
 }
 
+.material .chapter,
+.material .name,
+.material .topic {
+  width: 85%;
+}
+
 .material .topic {
   font-weight: 500;
   font-size: 0.875rem;
-  width: 85%;
 }
 
 /* More Icon */
