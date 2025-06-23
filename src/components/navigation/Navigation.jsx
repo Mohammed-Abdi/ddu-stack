@@ -19,7 +19,13 @@ function Navigation({ isOpen }) {
         </li>
         <li>
           <ContactIcon className="icon" />
-          <a href="#">Contact</a>
+          <a
+            href="https://t.me/its_mamme"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
