@@ -1,9 +1,4 @@
-.materials-wrapper {
-  display: flex;
-  gap: var(--padding-md);
-  flex-direction: column;
-}
-
+/* courses wrapper */
 .courses-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -12,7 +7,11 @@
   padding-block: var(--padding-bg);
 }
 
+/* materials wrapper */
 .materials-wrapper {
+  display: flex;
+  gap: var(--padding-md);
+  flex-direction: column;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -31,6 +30,12 @@
   transform: translate(-50%, -50%) scaleY(0);
 }
 
+/* material header */
+.material-header {
+  width: 100%;
+  padding-block: 1.5rem;
+}
+
 .materials-wrapper h2 {
   text-align: center;
 }
@@ -42,11 +47,7 @@
   padding: var(--padding-md);
 }
 
-.material-header {
-  width: 100%;
-  padding-block: 1.5rem;
-}
-
+/* material list */
 .material-list {
   display: flex;
   flex-direction: column;
