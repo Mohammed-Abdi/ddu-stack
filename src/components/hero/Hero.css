@@ -1,6 +1,6 @@
 .hero {
   text-align: center;
-  padding-block: var(--padding-bg);
+  padding-block: calc(var(--padding-bg) * 5) var(--padding-bg);
   font-size: 0.875rem;
 }
 
