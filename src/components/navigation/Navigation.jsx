@@ -5,9 +5,9 @@ import ContactIcon from "../../assets/material-icon/Contact.jsx";
 import HomeIcon from "../../assets/material-icon/Home.jsx";
 import "./Navigation.css";
 
-function Navigation({ isOpen }) {
+function Navigation({ isOpen, onMenu }) {
   return (
-    <nav className={!isOpen ? "closed" : ""}>
+    <nav className={!isOpen ? "closed" : ""} onClick={onMenu}>
       <ul>
         <li>
           <HomeIcon className="icon" />
