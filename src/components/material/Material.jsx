@@ -36,8 +36,9 @@ function Material({ code, name, topic, chapter, format, path, size, unit }) {
       </div>
       <div className={`material-detail ${!detailIsOpen ? "closed" : ""}`}>
         <div className="material-details">
-          <span className="code">{`course code: ${code}`}</span>
-          <span className="size">{`file size: ${size} ${unit}`}</span>
+          <span className="code">{`Course code: ${code}`}</span>
+          <span className="format">{`File format: ${format}`}</span>
+          <span className="size">{`File size: ${size} ${unit}`}</span>
         </div>
         <div className="buttons">
           {format === "pdf" && (
