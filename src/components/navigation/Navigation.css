@@ -9,7 +9,7 @@ nav {
   border-radius: 0 var(--padding-sm) var(--padding-sm) 0;
   z-index: 1;
   padding-block: 4rem 2rem;
-  padding-inline: var(--padding-bg);
+  padding-inline: 0 var(--padding-bg);
   transition: all 0.3s ease-in-out;
 }
 
@@ -37,4 +37,15 @@ nav ul li {
   display: flex;
   align-items: center;
   gap: var(--padding-sm);
+  flex-grow: 1;
+  padding-block: var(--padding-md);
+  font-size: 0.875rem;
+  border-radius: var(--padding-sm);
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+  padding-left: var(--padding-bg);
+}
+
+nav ul li:hover {
+  background-color: var(--dark-tr);
 }
