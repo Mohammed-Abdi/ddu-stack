@@ -1,7 +1,6 @@
 header {
   justify-content: space-between;
-  padding-block: var(--padding-md);
-  width: min(var(--max-width), 100% - var(--padding-bg));
+  padding: var(--padding-md);
   margin-inline: auto;
   border-bottom: 1px solid var(--dark-tr);
 }

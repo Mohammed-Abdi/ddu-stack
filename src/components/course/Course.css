@@ -1,5 +1,5 @@
 .course {
-  width: 300px;
+  min-width: 300px;
   padding: var(--padding-md);
   border-radius: var(--padding-md);
   border: 1px dotted var(--dark-clr);

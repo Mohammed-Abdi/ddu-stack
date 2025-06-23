@@ -5,13 +5,11 @@
 }
 
 .courses-wrapper {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, 300px);
-  width: 100%;
   gap: var(--padding-bg);
   padding-block: var(--padding-bg);
-  min-height: 75vh;
 }
 
 .materials-wrapper {
@@ -24,7 +22,7 @@
   width: min(500px, 100%);
   background-color: var(--light-clr);
   border: 1px dotted var(--dark-clr);
-  height: 70vh;
+  height: 75vh;
   border-radius: var(--padding-bg);
   overflow-y: auto;
   padding: calc(var(--padding-md) * 3) var(--padding-bg);

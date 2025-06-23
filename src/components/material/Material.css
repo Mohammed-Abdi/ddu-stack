@@ -12,7 +12,7 @@
   justify-content: space-between;
   padding: var(--padding-md);
   border-radius: var(--padding-md);
-  width: min(400px, 100%);
+  min-width: 300px;
   max-height: 100px;
   flex: 1;
 }
