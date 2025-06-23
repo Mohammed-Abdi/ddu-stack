@@ -5,14 +5,16 @@
 }
 
 .filter button {
-  border-radius: var(--padding-sm) var(--padding-sm) 0 0;
+  border-radius: var(--padding-md) var(--padding-md) 0 0;
   transition: background 0.3s ease-in-out;
-}
-
-.filter button:hover {
-  background-color: var(--dark-tr);
 }
 
 .highlight {
   border-bottom: 2px solid var(--dark-clr);
+}
+
+@media (min-width: 768px) {
+  .filter button:hover {
+    background-color: var(--dark-tr);
+  }
 }
