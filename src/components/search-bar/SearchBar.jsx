@@ -2,8 +2,11 @@ import Search from "../../assets/material-icon/Search.jsx";
 import "./SearchBar.css";
 
 function SearchBar({ search, setSearch }) {
+  function handleSubmit(p) {
+    p.preventDefault();
+  }
   return (
-    <form className="search-bar">
+    <form className="search-bar" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Search..."
