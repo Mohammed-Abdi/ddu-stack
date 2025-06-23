@@ -13,18 +13,15 @@
 }
 
 .materials-wrapper {
-  gap: var(--padding-bg);
-  align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: fixed;
-  width: min(500px, 100%);
+  width: min(500px, 100% - 20px);
   background-color: var(--light-clr);
   border: 1px dotted var(--dark-clr);
   height: 75vh;
   border-radius: var(--padding-bg);
-  overflow-y: auto;
   padding: calc(var(--padding-md) * 3) var(--padding-bg);
   transition: transform 0.3s ease-in-out;
   z-index: 1;
@@ -40,7 +37,21 @@
 
 .materials-wrapper .icon {
   position: absolute;
-  top: var(--padding-md);
+  top: calc(var(--padding-md) * 3);
   right: var(--padding-md);
   padding: var(--padding-md);
+}
+
+.material-header {
+  width: 100%;
+  padding-block: 1.5rem;
+}
+
+.material-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-bg);
+  align-items: center;
+  height: 100%;
+  overflow-y: auto;
 }

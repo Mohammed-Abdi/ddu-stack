@@ -56,32 +56,36 @@ function Courses({ search, year }) {
                       !isThisOpen ? "closed" : ""
                     }`}
                   >
-                    <h2>{course.name}</h2>
-                    <div
-                      className="icon hover-over"
-                      onClick={() =>
-                        setIsOpen((prev) =>
-                          prev === course.code ? null : course.code
-                        )
-                      }
-                    >
-                      <CloseAnimated />
+                    <div className="material-header">
+                      <h2>{course.name}</h2>
+                      <div
+                        className="icon hover-over"
+                        onClick={() =>
+                          setIsOpen((prev) =>
+                            prev === course.code ? null : course.code
+                          )
+                        }
+                      >
+                        <CloseAnimated />
+                      </div>
                     </div>
-                    {materials
-                      .filter((material) => material.code === course.code)
-                      .map((filteredMaterial) => (
-                        <Material
-                          key={filteredMaterial.id}
-                          code={filteredMaterial.code}
-                          name={filteredMaterial.name}
-                          topic={filteredMaterial.topic}
-                          chapter={filteredMaterial.chapter}
-                          format={filteredMaterial.format}
-                          path={filteredMaterial.path}
-                          size={filteredMaterial.size}
-                          unit={filteredMaterial.unit}
-                        />
-                      ))}
+                    <div className="material-list">
+                      {materials
+                        .filter((material) => material.code === course.code)
+                        .map((filteredMaterial) => (
+                          <Material
+                            key={filteredMaterial.id}
+                            code={filteredMaterial.code}
+                            name={filteredMaterial.name}
+                            topic={filteredMaterial.topic}
+                            chapter={filteredMaterial.chapter}
+                            format={filteredMaterial.format}
+                            path={filteredMaterial.path}
+                            size={filteredMaterial.size}
+                            unit={filteredMaterial.unit}
+                          />
+                        ))}
+                    </div>
                   </div>
                 </div>
               );
