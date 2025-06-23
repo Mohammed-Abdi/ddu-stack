@@ -1,42 +1,29 @@
-.material,
-.material-detail,
-.material-buttons {
-  display: flex;
-  gap: var(--padding-sm);
-}
-
+/* Material Layout  */
 .material {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--padding-sm);
   border: 1px dotted var(--dark-clr);
   position: relative;
-  justify-content: space-between;
   padding: var(--padding-md);
   border-radius: var(--padding-md);
   width: min(400px, 100% - 20px);
 }
 
+/* Info Wrapper */
 .material-info-wrapper {
   display: flex;
   gap: var(--padding-md);
   align-items: center;
 }
 
-.material-detail {
+/* Overview Section */
+.material-overview {
+  display: flex;
   flex-direction: column;
-}
-
-.material .code {
-  position: absolute;
-  top: var(--padding-md);
-  right: var(--padding-md);
-  font-size: 0.5rem;
-  font-weight: 500;
-  opacity: 0;
-}
-
-.material .topic {
-  font-weight: 500;
-  font-size: 0.875rem;
+  position: relative;
+  flex-grow: 1;
 }
 
 .material .chapter,
@@ -46,8 +33,63 @@
   opacity: 0.5;
 }
 
-.material-buttons .download {
-  border-radius: 50%;
-  opacity: 0.5;
-  padding: 7px;
+.material .topic {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+/* More Icon */
+.material .more {
+  padding: var(--padding-md);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Detail Section (animated toggle) */
+.material-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+  max-height: 100px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.material-detail.closed {
+  max-height: 0;
+  opacity: 0;
+}
+
+/* Detail Content */
+.material-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+}
+
+/* Buttons Section */
+.material .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-md);
+  padding-top: 0.5rem;
+}
+
+.material .button {
+  display: flex;
+  gap: var(--padding-sm);
+  padding: 0.5rem 0.75rem;
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.material .button:hover {
+  opacity: 0.8;
 }

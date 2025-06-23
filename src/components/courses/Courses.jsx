@@ -25,6 +25,8 @@ function Courses({ search, year }) {
                 chapter={filteredMaterial.chapter}
                 format={filteredMaterial.format}
                 path={filteredMaterial.path}
+                size={filteredMaterial.size}
+                unit={filteredMaterial.unit}
               />
             ))
         : courses
@@ -76,6 +78,8 @@ function Courses({ search, year }) {
                           chapter={filteredMaterial.chapter}
                           format={filteredMaterial.format}
                           path={filteredMaterial.path}
+                          size={filteredMaterial.size}
+                          unit={filteredMaterial.unit}
                         />
                       ))}
                   </div>
