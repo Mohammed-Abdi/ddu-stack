@@ -11,7 +11,7 @@ function App() {
   }
   return (
     <>
-      <Navigation />
+      <Navigation isOpen={menuIsOpen} />
       <Header menuIsOpen={menuIsOpen} onMenu={handleMenu} />
       <main>
         <Hero />
