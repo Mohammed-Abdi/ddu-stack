@@ -6,6 +6,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: var(--light-clr);
+  z-index: 1;
 }
 
 header,
@@ -17,7 +18,6 @@ header,
 
 .left-header {
   gap: var(--padding-sm);
-  z-index: 2;
 }
 
 .logo {
