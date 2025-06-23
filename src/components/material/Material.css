@@ -36,6 +36,7 @@
 .material .topic {
   font-weight: 500;
   font-size: 0.875rem;
+  width: 85%;
 }
 
 /* More Icon */
@@ -55,7 +56,7 @@
   opacity: 0.7;
   max-height: 100px;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .material-detail.closed {
