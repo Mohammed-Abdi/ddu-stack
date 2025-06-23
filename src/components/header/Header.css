@@ -14,6 +14,7 @@ header,
 
 .left-header {
   gap: var(--padding-sm);
+  z-index: 2;
 }
 
 .logo {
