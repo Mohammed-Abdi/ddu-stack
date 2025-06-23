@@ -22,7 +22,7 @@
   border: 1px dotted var(--dark-clr);
   height: 75vh;
   border-radius: var(--padding-bg);
-  padding: calc(var(--padding-md) * 3) var(--padding-bg);
+  padding: calc(var(--padding-md) * 3) var(--padding-md);
   transition: transform 0.3s ease-in-out;
   z-index: 1;
 }
