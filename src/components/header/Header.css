@@ -3,6 +3,9 @@ header {
   padding: var(--padding-md);
   margin-inline: auto;
   border-bottom: 1px solid var(--dark-tr);
+  position: fixed;
+  width: 100%;
+  background-color: var(--light-clr);
 }
 
 header,
