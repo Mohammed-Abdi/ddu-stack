@@ -12,7 +12,7 @@ const materials = [
     size: 422,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2022CH2",
@@ -27,7 +27,7 @@ const materials = [
     size: 1.18,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2022CH3",
@@ -42,7 +42,7 @@ const materials = [
     size: 837,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2022CH4",
@@ -57,7 +57,7 @@ const materials = [
     size: 2.37,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2022CH5",
@@ -72,7 +72,7 @@ const materials = [
     size: 1.4,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2022CH6",
@@ -87,7 +87,7 @@ const materials = [
     size: 3.1,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2022CH7",
@@ -102,7 +102,7 @@ const materials = [
     size: 2.49,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2042CH1",
@@ -117,7 +117,7 @@ const materials = [
     size: 255,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2042CH2",
@@ -131,7 +131,7 @@ const materials = [
     size: 261,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2042CH3",
@@ -146,7 +146,7 @@ const materials = [
     size: 552,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2042CH4",
@@ -161,7 +161,7 @@ const materials = [
     size: 256,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2042CH1-4",
@@ -176,7 +176,7 @@ const materials = [
     size: 1.3,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH1",
@@ -191,7 +191,7 @@ const materials = [
     size: 0.99,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH2",
@@ -206,7 +206,7 @@ const materials = [
     size: 631,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH3",
@@ -221,7 +221,7 @@ const materials = [
     size: 580,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH4",
@@ -236,7 +236,7 @@ const materials = [
     size: 543,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH5",
@@ -251,7 +251,7 @@ const materials = [
     size: 0.99,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH6",
@@ -266,7 +266,7 @@ const materials = [
     size: 1.03,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH7",
@@ -281,7 +281,7 @@ const materials = [
     size: 0.89,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH8",
@@ -296,7 +296,7 @@ const materials = [
     size: 535,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2054CH9",
@@ -311,7 +311,7 @@ const materials = [
     size: 397,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "ECEG2142CH1",
@@ -326,7 +326,7 @@ const materials = [
     size: 83.4,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "ECEG2142CH2",
@@ -341,7 +341,7 @@ const materials = [
     size: 1.65,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "ECEG2142CH3",
@@ -355,7 +355,7 @@ const materials = [
     size: 2.07,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "ECEG2142CH4",
@@ -370,7 +370,7 @@ const materials = [
     size: 1.95,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "ECEG2142CH5",
@@ -385,7 +385,7 @@ const materials = [
     size: 2.51,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2052CH1-8",
@@ -400,7 +400,7 @@ const materials = [
     size: 3.47,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2032CH1",
@@ -414,7 +414,7 @@ const materials = [
     size: 1.32,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2032CH2",
@@ -428,7 +428,7 @@ const materials = [
     size: 1.33,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2032CH3",
@@ -442,7 +442,7 @@ const materials = [
     size: 1.26,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2032CH4",
@@ -456,7 +456,7 @@ const materials = [
     size: 1.25,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2032CH5",
@@ -470,7 +470,7 @@ const materials = [
     size: 1.84,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2032CH6",
@@ -485,7 +485,7 @@ const materials = [
     size: 2.74,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2051CH1",
@@ -500,7 +500,7 @@ const materials = [
     size: 159,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2051CH2",
@@ -515,7 +515,7 @@ const materials = [
     size: 269,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2051CH3",
@@ -530,7 +530,7 @@ const materials = [
     size: 169,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2051CH4",
@@ -545,7 +545,7 @@ const materials = [
     size: 1.59,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2051CH5",
@@ -560,7 +560,7 @@ const materials = [
     size: 161,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2051CH6",
@@ -575,7 +575,7 @@ const materials = [
     size: 657,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2021CH1",
@@ -590,7 +590,7 @@ const materials = [
     size: 1.28,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2021CH2",
@@ -605,7 +605,7 @@ const materials = [
     size: 1.06,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2021CH3",
@@ -619,7 +619,7 @@ const materials = [
     size: 615,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2021CH4",
@@ -633,7 +633,7 @@ const materials = [
     size: 631,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng2021CH5",
@@ -648,7 +648,7 @@ const materials = [
     size: 749,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CH1",
@@ -663,7 +663,7 @@ const materials = [
     size: 1.0,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CH2",
@@ -678,7 +678,7 @@ const materials = [
     size: 1.0,
     unit: "MB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CH3",
@@ -693,7 +693,7 @@ const materials = [
     size: 899,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CH4",
@@ -708,7 +708,7 @@ const materials = [
     size: 251,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CH4L",
@@ -723,7 +723,7 @@ const materials = [
     size: 6.3,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: true,
+    isLabExercise: true,
   },
   {
     id: "SOEng3061CH5",
@@ -738,7 +738,7 @@ const materials = [
     size: 364,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CH5L",
@@ -753,7 +753,7 @@ const materials = [
     size: 129,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: true,
+    isLabExercise: true,
   },
   {
     id: "SOEng3061CH6",
@@ -768,7 +768,7 @@ const materials = [
     size: 252,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
   {
     id: "SOEng3061CHP",
@@ -783,7 +783,7 @@ const materials = [
     size: 252,
     unit: "KB",
     isAssignment: false,
-    isLabExcersise: false,
+    isLabExercise: false,
   },
 ];
 
