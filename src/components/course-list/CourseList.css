@@ -4,4 +4,10 @@
   align-items: center;
   gap: var(--padding-bg);
   min-height: 75vh;
+  background-color: var(--light-clr);
+  transition: transform 0.5s ease-in-out;
+}
+
+.course-list.on-search {
+  transform: translateY(-210px);
 }

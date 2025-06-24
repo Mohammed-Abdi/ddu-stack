@@ -2,6 +2,7 @@
   text-align: center;
   padding-block: calc(var(--padding-bg) * 5) var(--padding-bg);
   font-size: 0.875rem;
+  background-color: var(--light-clr);
 }
 
 @media (min-width: 48rem) {

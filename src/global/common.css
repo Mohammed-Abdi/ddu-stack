@@ -9,6 +9,7 @@ main {
   gap: var(--padding-bg);
   width: min(var(--max-width), 100% - var(--padding-bg));
   margin-inline: auto;
+  background-color: var(--light-clr);
 }
 
 button {

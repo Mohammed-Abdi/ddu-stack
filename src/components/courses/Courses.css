@@ -7,6 +7,10 @@
   padding-block: var(--padding-bg);
 }
 
+.courses-wrapper.on-search {
+  flex-direction: column;
+}
+
 /* materials wrapper */
 .materials-wrapper {
   display: flex;

@@ -3,16 +3,15 @@ import courses from "../../data/courses.js";
 import materials from "../../data/materials.js";
 import Material from "../material/Material.jsx";
 import Course from "../course/Course.jsx";
-import CloseAnimated from "../../assets/nav-icon/CloseAnimated.jsx";
 import { useState } from "react";
 import CloseIcon from "../../assets/material-icon/Close.jsx";
 
-function Courses({ search, year }) {
+function Courses({ search, year, isOnSearch }) {
   const [isOpen, setIsOpen] = useState(null);
 
   return (
-    <div className="courses-wrapper">
-      {search
+    <div className={`courses-wrapper ${isOnSearch ? "on-search" : ""}`}>
+      {isOnSearch || search
         ? materials
             .filter((material) =>
               material.search.toLowerCase().includes(search.toLowerCase())
