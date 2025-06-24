@@ -48,7 +48,7 @@ function Material({ code, name, topic, chapter, format, path, size, unit }) {
             <span className="topic">{topic}</span>
             <span className="name">{name}</span>
             <div className="more hover-over" onClick={handleMiniWindowIsOpen}>
-              <More />
+              {miniWindowIsOpen ? <Close /> : <More />}
             </div>
           </div>
         </div>
