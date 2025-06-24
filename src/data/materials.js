@@ -777,7 +777,7 @@ const materials = [
     topic: "OOP Mini-project",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 6 Java file handling",
+      "SOEng3061 OOP mini-project oop mini project Object oriented programming mini-project mini project",
     format: "pdf",
     path: "/docs/object-oriented-programming-mini-project.pdf",
     size: 252,
