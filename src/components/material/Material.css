@@ -73,6 +73,7 @@
 .material-details {
   display: flex;
   flex-direction: column;
+  gap: var(--padding-md);
   font-size: 0.875rem;
   padding-top: 0.5rem;
   background-color: var(--light-clr);
