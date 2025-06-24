@@ -11,6 +11,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-1.pdf",
     size: 422,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2022CH2",
@@ -24,6 +26,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-2.pdf",
     size: 1.18,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2022CH3",
@@ -37,6 +41,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-3.pdf",
     size: 837,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2022CH4",
@@ -50,6 +56,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-4.pdf",
     size: 2.37,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2022CH5",
@@ -63,6 +71,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-5.pdf",
     size: 1.4,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2022CH6",
@@ -76,6 +86,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-6.pdf",
     size: 3.1,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2022CH7",
@@ -89,6 +101,8 @@ const materials = [
     path: "/docs/data-structure-and-algorithms-chapter-7.pdf",
     size: 2.49,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2042CH1",
@@ -102,6 +116,8 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-1.pdf",
     size: 255,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2042CH2",
@@ -114,6 +130,8 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-2.pdf",
     size: 261,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2042CH3",
@@ -127,6 +145,8 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-3.pdf",
     size: 552,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2042CH4",
@@ -140,6 +160,8 @@ const materials = [
     path: "/docs/fundamentals-of-database-chapter-4.pdf",
     size: 256,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2042CH1-4",
@@ -153,6 +175,8 @@ const materials = [
     path: "/docs/fundamentals-of-database-short-note.pdf",
     size: 1.3,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH1",
@@ -166,6 +190,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-1.pdf",
     size: 0.99,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH2",
@@ -179,6 +205,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-2.pdf",
     size: 631,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH3",
@@ -192,6 +220,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-3.pdf",
     size: 580,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH4",
@@ -205,6 +235,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-4.pdf",
     size: 543,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH5",
@@ -218,6 +250,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-5.pdf",
     size: 0.99,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH6",
@@ -231,6 +265,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-6.pdf",
     size: 1.03,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH7",
@@ -244,6 +280,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-7.pdf",
     size: 0.89,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH8",
@@ -257,6 +295,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-8.pdf",
     size: 535,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2054CH9",
@@ -270,6 +310,8 @@ const materials = [
     path: "/docs/advanced-software-engineering-chapter-9.pdf",
     size: 397,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "ECEG2142CH1",
@@ -283,6 +325,8 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-1.pptx",
     size: 83.4,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "ECEG2142CH2",
@@ -296,6 +340,8 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-2.pptx",
     size: 1.65,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "ECEG2142CH3",
@@ -308,6 +354,8 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-3.pptx",
     size: 2.07,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "ECEG2142CH4",
@@ -321,6 +369,8 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-4.pptx",
     size: 1.95,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "ECEG2142CH5",
@@ -334,6 +384,8 @@ const materials = [
     path: "/docs/digital-logic-design-chapter-5.pptx",
     size: 2.51,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2052CH1-8",
@@ -347,6 +399,8 @@ const materials = [
     path: "/docs/object-oriented-system-analysis-and-design-all-chapters.pdf",
     size: 3.47,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2032CH1",
@@ -359,6 +413,8 @@ const materials = [
     path: "/docs/operating-systems-chapter-1.pdf",
     size: 1.32,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2032CH2",
@@ -371,6 +427,8 @@ const materials = [
     path: "/docs/operating-systems-chapter-2.pdf",
     size: 1.33,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2032CH3",
@@ -383,6 +441,8 @@ const materials = [
     path: "/docs/operating-systems-chapter-3.pdf",
     size: 1.26,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2032CH4",
@@ -395,6 +455,8 @@ const materials = [
     path: "/docs/operating-systems-chapter-4.pdf",
     size: 1.25,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2032CH5",
@@ -407,6 +469,8 @@ const materials = [
     path: "/docs/operating-systems-chapter-5.pdf",
     size: 1.84,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2032CH6",
@@ -420,6 +484,8 @@ const materials = [
     path: "/docs/operating-systems-chapter-6.pdf",
     size: 2.74,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2051CH1",
@@ -433,6 +499,8 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-1.pptx",
     size: 159,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2051CH2",
@@ -446,6 +514,8 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-2.pptx",
     size: 269,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2051CH3",
@@ -459,6 +529,8 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-3.pptx",
     size: 169,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2051CH4",
@@ -472,6 +544,8 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-4.pptx",
     size: 1.59,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2051CH5",
@@ -485,6 +559,8 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-5.pptx",
     size: 161,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2051CH6",
@@ -498,6 +574,8 @@ const materials = [
     path: "/docs/fundamentals-of-software-engineering-chapter-6.pptx",
     size: 657,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2021CH1",
@@ -511,6 +589,8 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-1.pdf",
     size: 1.28,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2021CH2",
@@ -524,6 +604,8 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-2.pdf",
     size: 1.06,
     unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2021CH3",
@@ -536,6 +618,8 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-3.pdf",
     size: 615,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2021CH4",
@@ -548,6 +632,8 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-4.pdf",
     size: 631,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
   {
     id: "SOEng2021CH5",
@@ -561,6 +647,128 @@ const materials = [
     path: "/docs/fundamentals-of-programming-2-chapter-5.pdf",
     size: 749,
     unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CH1",
+    name: "Object oriented programming",
+    chapter: 1,
+    topic: "Introduction to object oriented programming",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter one chapter 1 Introduction to object oriented programming",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-1.pdf",
+    size: 1.0,
+    unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CH2",
+    name: "Object oriented programming",
+    chapter: 2,
+    topic: "Object classes and objects",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter two chapter 2 Object classes and objects",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-2.pdf",
+    size: 1.0,
+    unit: "MB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CH3",
+    name: "Object oriented programming",
+    chapter: 3,
+    topic: "Inheritance and polymorphism",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter three chapter 3 Inheritance and polymorphism",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-3.pdf",
+    size: 899,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CH4",
+    name: "Object oriented programming",
+    chapter: 4,
+    topic: "Abstraction and encapsulation",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-4.pdf",
+    size: 251,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CH4L",
+    name: "Object oriented programming",
+    chapter: 4,
+    topic: "Lab Exercise: Abstraction and encapsulation",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-4.pdf",
+    size: 6.3,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: true,
+  },
+  {
+    id: "SOEng3061CH5",
+    name: "Object oriented programming",
+    chapter: 5,
+    topic: "Java exception handling",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter four chapter 5 Java exception handling",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-5.pdf",
+    size: 364,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CH5L",
+    name: "Object oriented programming",
+    chapter: 5,
+    topic: "Lab Exercise: Java exception handling",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter four chapter 5 Java exception handling",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-lab-5.pdf",
+    size: 129,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: true,
+  },
+  {
+    id: "SOEng3061CH6",
+    name: "Object oriented programming",
+    chapter: 6,
+    topic: "Java file handling",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter four chapter 6 Java file handling",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-6.pdf",
+    size: 252,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
   },
 ];
 
