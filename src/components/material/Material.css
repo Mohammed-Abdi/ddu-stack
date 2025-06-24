@@ -75,27 +75,110 @@
   flex-direction: column;
   font-size: 0.875rem;
   padding-top: 0.5rem;
+  background-color: var(--light-clr);
+  border: 1px dotted var(--dark-clr);
+  padding: var(--padding-bg);
+  border-radius: var(--padding-md);
+  position: fixed;
+  width: 280px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.material-details.closed {
+  display: none;
+}
+
+.material-details .title {
+  font-weight: 500;
+  margin-bottom: var(--padding-md);
+}
+
+.material-details .close-icon {
+  position: absolute;
+  top: var(--padding-sm);
+  right: var(--padding-sm);
+  padding: var(--padding-md);
 }
 
 /* Buttons Section */
 .material .buttons {
   display: flex;
   flex-direction: column;
-  gap: var(--padding-md);
-  padding-top: 0.5rem;
+  width: fit-content;
+  border: 1px dotted var(--dark-clr);
+  border-radius: var(--padding-sm);
+  overflow: hidden;
+  position: absolute;
+  background-color: var(--light-clr);
+  top: var(--padding-bg);
+  right: var(--padding-bg);
+  z-index: 1;
+}
+
+.material .buttons.closed {
+  display: none;
 }
 
 .material .button {
   display: flex;
-  gap: var(--padding-sm);
   padding: 0.5rem 0.75rem;
-  background-color: var(--dark-clr);
-  color: var(--light-clr);
   font-size: 0.875rem;
-  border-radius: 0.25rem;
-  transition: opacity 0.3s ease-in-out;
+  gap: var(--padding-sm);
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
 .material .button:hover {
-  opacity: 0.8;
+  background: var(--dark-tr);
+}
+
+.download-window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px dotted var(--dark-clr);
+  width: 280px;
+  background-color: var(--light-clr);
+  padding: var(--padding-bg);
+  border-radius: var(--padding-md);
+  z-index: 1;
+}
+
+.download-window.closed {
+  display: none;
+}
+
+.notice {
+  text-align: center;
+  padding: var(--padding-bg);
+  padding-block: calc(var(--padding-md) * 3);
+  width: 100%;
+}
+
+.decisions {
+  display: flex;
+  gap: var(--padding-md);
+}
+
+.download-btn,
+.cancel-btn {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border: 2px solid var(--dark-clr);
+  width: 120px;
+  border-radius: var(--padding-md);
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
 }

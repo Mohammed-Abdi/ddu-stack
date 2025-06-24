@@ -4,13 +4,14 @@ export default function Download(props) {
       xmlns="http://www.w3.org/2000/svg"
       width={18}
       height={18}
-      viewBox="0 0 24 24"
+      viewBox="0 0 32 32"
       {...props}
     >
       <path
-        fill="currentColor"
-        d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z"
+        fill="#4caf50"
+        d="M28.967 12H9.442a2 2 0 0 0-1.898 1.368L4 24V10h24a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464l-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h22l4.805-11.212A2 2 0 0 0 28.967 12"
       ></path>
+      <path fill="#c8e6c9" d="M26 10v6h4l-7 8l-7-8h4v-6zm4 16v2H16v-2Z"></path>
     </svg>
   );
 }

@@ -7,10 +7,13 @@ export default function Read(props) {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path
-        fill="currentColor"
-        d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"
-      ></path>
+      <g fill="none" fillRule="evenodd" clipRule="evenodd">
+        <path fill="#8fbffa" d="M21.5 5.5h-19v15h19z"></path>
+        <path
+          fill="#2859c5"
+          d="M23 1.5H1v5h22zm-10 19h10v-2H1v2h10v2h2zm2.566-8L10.15 8.51v7.98z"
+        ></path>
+      </g>
     </svg>
   );
 }
