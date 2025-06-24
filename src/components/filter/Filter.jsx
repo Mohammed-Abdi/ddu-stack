@@ -9,6 +9,13 @@ function Filter({ year, setYear }) {
   return (
     <div className="filter">
       <button
+        value={2019}
+        onClick={handleFilter}
+        className={year === 2019 ? "highlight" : ""}
+      >
+        4th year
+      </button>
+      <button
         value={2018}
         onClick={handleFilter}
         className={year === 2018 ? "highlight" : ""}
