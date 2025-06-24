@@ -4,12 +4,15 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--padding-bg);
-  padding-block: var(--padding-bg);
+  padding: var(--padding-bg);
+  overflow-y: auto;
 }
 
 .courses-wrapper.on-search {
   align-items: center;
   flex-direction: column;
+  width: min(500px, 100%);
+  margin-inline: auto;
 }
 
 /* materials wrapper */
@@ -26,7 +29,7 @@
   border: 1px dotted var(--dark-clr);
   height: 75vh;
   border-radius: var(--padding-bg);
-  padding: calc(var(--padding-md) * 3) var(--padding-md);
+  padding: calc(var(--padding-md) * 3);
   transition: transform 0.3s ease-in-out;
   z-index: 1;
 }
