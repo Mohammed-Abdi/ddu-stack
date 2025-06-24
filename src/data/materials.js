@@ -779,7 +779,7 @@ const materials = [
     search:
       "SOEng3061 OOP Object oriented programming chapter four chapter 6 Java file handling",
     format: "pdf",
-    path: "/docs/object-oriented-programming-chapter-6.pdf",
+    path: "/docs/object-oriented-programming-mini-project.pdf",
     size: 252,
     unit: "KB",
     isAssignment: true,
