@@ -37,7 +37,7 @@ function Material({
     setMiniWindowIsOpen((value) => !value);
   }
   function handleDetail() {
-    // if (miniWindowIsOpen) setMiniWindowIsOpen((value) => !value);
+    setMiniWindowIsOpen((value) => !value);
     if (downloadWindowIsOpen) setDownloadWindowIsOpen((value) => !value);
     if (detailWindowIsOpen) setDetailWindowIsOpen((value) => !value);
   }
@@ -66,25 +66,31 @@ function Material({
             </span>
             <span className="topic">{topic}</span>
             <span className="name">{name}</span>
-            <div className="more hover-over" onClick={handleMiniWindowIsOpen}>
-              {miniWindowIsOpen ? <Close /> : <More />}
+            <div className="more hover-over">
+              <More />
             </div>
           </div>
         </div>
-        <div className={`buttons ${!miniWindowIsOpen ? "closed" : ""}`}>
-          {format === "pdf" && (
-            <a href={path} target="_blank" className="button">
-              <Read /> Preview
-            </a>
-          )}
-          <div className="button" onClick={handleDownloadWindow}>
-            <Download />
-            Download
-          </div>
-          <div className="button" onClick={handleDetailWindowIsOpen}>
-            <Properties />
-            Properties
-          </div>
+      </div>
+      <div
+        className={`buttons ${!miniWindowIsOpen ? "closed" : ""}`}
+        onClick={handleMiniWindowIsOpen}
+      >
+        {format === "pdf" && (
+          <a href={path} target="_blank" className="button">
+            <Read /> Open in browser
+          </a>
+        )}
+        <div className="button" onClick={handleDownloadWindow}>
+          <Download />
+          Download Now
+        </div>
+        <div className="button" onClick={handleDetailWindowIsOpen}>
+          <Properties />
+          View Properties
+        </div>
+        <div className="close-icon-for-mini-window hover-over">
+          <Close />
         </div>
       </div>
       <div

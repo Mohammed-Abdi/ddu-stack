@@ -114,34 +114,43 @@
 }
 
 /* Buttons Section */
-.material .buttons {
+.buttons {
   display: flex;
   flex-direction: column;
   width: fit-content;
   border: 1px dotted var(--dark-clr);
-  border-radius: var(--padding-sm);
+  border-radius: var(--padding-md);
+  padding: calc(var(--padding-bg) * 1.5) var(--padding-bg);
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   background-color: var(--light-clr);
-  top: var(--padding-bg);
-  right: calc(var(--padding-md) * 5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
   z-index: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
-.material .buttons.closed {
-  display: none;
+.buttons.closed {
+  transform: translate(-50%, -50%) scale(0);
+  visibility: hidden;
+  pointer-events: none;
 }
 
-.material .button {
+.button {
   display: flex;
   padding: 0.75rem 0.75rem;
   font-size: 0.875rem;
-  gap: var(--padding-sm);
+  gap: var(--padding-md);
+  border-radius: var(--padding-sm);
   cursor: pointer;
+  width: 170px;
   transition: background 0.3s ease-in-out;
 }
 
-.material .button:hover {
+.button:hover {
   background: var(--dark-tr);
 }
 
@@ -169,6 +178,13 @@
   transform: translate(-50%, -50%) scale(0);
   visibility: hidden;
   pointer-events: none;
+}
+
+.close-icon-for-mini-window {
+  position: absolute;
+  right: var(--padding-sm);
+  top: var(--padding-sm);
+  padding: var(--padding-md);
 }
 
 .notice {
