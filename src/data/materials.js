@@ -783,7 +783,7 @@ const materials = [
     size: 252,
     unit: "KB",
     isAssignment: false,
-    isLabExercise: false,
+    isLabExercise: true,
   },
 ];
 

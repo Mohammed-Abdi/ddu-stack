@@ -7,10 +7,23 @@ import Download from "../../assets/material-icon/Download.jsx";
 import Read from "../../assets/material-icon/Read.jsx";
 import More from "../../assets/material-icon/More.jsx";
 import Close from "../../assets/material-icon/Close.jsx";
+import Project from "../../assets/file-icon/Project.jsx";
+import LabExercise from "../../assets/file-icon/Lab.jsx";
 import { useState } from "react";
 import Properties from "../../assets/material-icon/Properties.jsx";
 
-function Material({ code, name, topic, chapter, format, path, size, unit }) {
+function Material({
+  code,
+  name,
+  topic,
+  chapter,
+  format,
+  path,
+  size,
+  unit,
+  isLabExercise,
+  isAssignment,
+}) {
   const [miniWindowIsOpen, setMiniWindowIsOpen] = useState(false);
   const [downloadWindowIsOpen, setDownloadWindowIsOpen] = useState(false);
   const [detailWindowIsOpen, setDetailWindowIsOpen] = useState(false);
@@ -33,7 +46,11 @@ function Material({ code, name, topic, chapter, format, path, size, unit }) {
       <div className="material" onClick={handleDetail}>
         <div className="material-info-wrapper">
           <div className="material-icon">
-            {format === "pdf" ? (
+            {isLabExercise ? (
+              <LabExercise />
+            ) : isAssignment ? (
+              <Project />
+            ) : format === "pdf" ? (
               <Pdf />
             ) : format === "pptx" ? (
               <Pptx />
