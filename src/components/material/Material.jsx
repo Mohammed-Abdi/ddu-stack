@@ -94,7 +94,7 @@ function Material({
         <Close className="close-icon hover-over" />
         <span className="title">Document Properties</span>
         <span>Course: {name}</span>
-        <span>Chapter: {chapter}</span>
+        <span>{chapter > 0 ? `Chapter ${chapter}` : "Assignment"}</span>
         <span>Topic: {topic}</span>
         <span>Code: {code}</span>
         <span>Type: {format}</span>
