@@ -24,7 +24,7 @@ function Material({ code, name, topic, chapter, format, path, size, unit }) {
     setMiniWindowIsOpen((value) => !value);
   }
   function handleDetail() {
-    if (miniWindowIsOpen) setMiniWindowIsOpen((value) => !value);
+    // if (miniWindowIsOpen) setMiniWindowIsOpen((value) => !value);
     if (downloadWindowIsOpen) setDownloadWindowIsOpen((value) => !value);
     if (detailWindowIsOpen) setDetailWindowIsOpen((value) => !value);
   }
