@@ -122,8 +122,8 @@
   overflow: hidden;
   position: absolute;
   background-color: var(--light-clr);
-  top: var(--padding-bg);
-  right: var(--padding-bg);
+  top: var(--padding-md);
+  right: calc(var(--padding-md) * 5);
   z-index: 1;
 }
 
@@ -133,7 +133,7 @@
 
 .material .button {
   display: flex;
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem 0.75rem;
   font-size: 0.875rem;
   gap: var(--padding-sm);
   cursor: pointer;
