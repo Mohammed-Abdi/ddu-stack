@@ -782,8 +782,8 @@ const materials = [
     path: "/docs/object-oriented-programming-chapter-6.pdf",
     size: 252,
     unit: "KB",
-    isAssignment: false,
-    isLabExercise: true,
+    isAssignment: true,
+    isLabExercise: false,
   },
 ];
 
