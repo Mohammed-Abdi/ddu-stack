@@ -44,7 +44,9 @@ function Material({ code, name, topic, chapter, format, path, size, unit }) {
             )}
           </div>
           <div className="material-overview">
-            <span className="chapter">{`Chapter ${chapter}`}</span>
+            <span className="chapter">
+              {chapter > 0 ? `Chapter ${chapter}` : "Assignment"}
+            </span>
             <span className="topic">{topic}</span>
             <span className="name">{name}</span>
             <div className="more hover-over" onClick={handleMiniWindowIsOpen}>

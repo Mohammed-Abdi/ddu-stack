@@ -717,7 +717,7 @@ const materials = [
     topic: "Lab Exercise: Abstraction and encapsulation",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation",
+      "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation lab exercise",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-4.pdf",
     size: 6.3,
@@ -747,7 +747,7 @@ const materials = [
     topic: "Lab Exercise: Java exception handling",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 5 Java exception handling",
+      "SOEng3061 OOP Object oriented programming chapter four chapter 5 Java exception handling lab exercise",
     format: "pdf",
     path: "/docs/object-oriented-programming-lab-5.pdf",
     size: 129,
@@ -760,6 +760,21 @@ const materials = [
     name: "Object oriented programming",
     chapter: 6,
     topic: "Java file handling",
+    code: "SOEng3061",
+    search:
+      "SOEng3061 OOP Object oriented programming chapter four chapter 6 Java file handling",
+    format: "pdf",
+    path: "/docs/object-oriented-programming-chapter-6.pdf",
+    size: 252,
+    unit: "KB",
+    isAssignment: false,
+    isLabExcersise: false,
+  },
+  {
+    id: "SOEng3061CHP",
+    name: "Object oriented programming",
+    chapter: 0,
+    topic: "OOP Mini-project",
     code: "SOEng3061",
     search:
       "SOEng3061 OOP Object oriented programming chapter four chapter 6 Java file handling",
