@@ -22,7 +22,7 @@ function CourseList() {
         isOnSearch={isOnSearch}
         onSearch={handleOnSearch}
       />
-      {!search && <Filter year={year} setYear={setYear} />}
+      {!isOnSearch && !search ? <Filter year={year} setYear={setYear} /> : ""}
       <Courses year={year} search={search} isOnSearch={isOnSearch} />
     </section>
   );
