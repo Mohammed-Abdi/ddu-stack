@@ -83,6 +83,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
+  padding-top: calc(var(--padding-bg) * 2);
   overflow: hidden;
   z-index: 1;
   top: 50%;
@@ -106,8 +107,8 @@
 
 .material-details .close-icon {
   position: absolute;
-  top: var(--padding-sm);
-  right: var(--padding-sm);
+  top: var(--padding-bg);
+  right: var(--padding-md);
   padding: var(--padding-md);
 }
 
