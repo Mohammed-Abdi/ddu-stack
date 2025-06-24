@@ -22,6 +22,7 @@
 .material-overview {
   display: flex;
   flex-direction: column;
+  gap: var(--padding-sm);
   position: relative;
   flex-grow: 1;
 }
