@@ -1,12 +1,10 @@
 import { useState } from "react";
 import "./Filter.css";
 
-function Filter({ setYear }) {
-  const [isOnIt, setIsOnIt] = useState(2018);
+function Filter({ year, setYear }) {
   function handleFilter(e) {
     const value = Number(e.target.value);
     setYear(value);
-    setIsOnIt(value);
   }
 
   return (
@@ -14,14 +12,14 @@ function Filter({ setYear }) {
       <button
         value={2018}
         onClick={handleFilter}
-        className={isOnIt === 2018 ? "highlight" : ""}
+        className={year === 2018 ? "highlight" : ""}
       >
         3rd year
       </button>
       <button
         value={2017}
         onClick={handleFilter}
-        className={isOnIt === 2017 ? "highlight" : ""}
+        className={year === 2017 ? "highlight" : ""}
       >
         2nd year
       </button>
