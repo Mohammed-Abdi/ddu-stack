@@ -117,6 +117,7 @@
 .buttons {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: fit-content;
   border: 1px dotted var(--dark-clr);
   border-radius: var(--padding-md);
@@ -128,9 +129,24 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   z-index: 1;
+  gap: var(--padding-md);
   visibility: visible;
   pointer-events: auto;
   transition: transform 0.3s ease-in-out;
+}
+
+.material-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--padding-bg);
+  text-align: center;
+  margin-bottom: var(--padding-md);
+}
+
+.material-title .material-icon {
+  width: 100px;
+  height: 100px;
 }
 
 .buttons.closed {
@@ -141,17 +157,20 @@
 
 .button {
   display: flex;
+  justify-content: center;
   padding: 0.75rem 0.75rem;
   font-size: 0.875rem;
   gap: var(--padding-md);
-  border-radius: var(--padding-sm);
+  border-radius: var(--padding-md);
   cursor: pointer;
-  width: 170px;
+  width: 240px;
+  background: var(--dark-tr);
   transition: background 0.3s ease-in-out;
 }
 
-.button:hover {
-  background: var(--dark-tr);
+.button.download {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
 }
 
 .download-window {
@@ -203,10 +222,10 @@
 .cancel-btn {
   display: flex;
   justify-content: center;
-  padding: 0.5rem 1rem;
-  font-weight: 500;
-  border: 1px dotted var(--dark-clr);
+  padding: 0.7rem 1rem;
+  background: var(--dark-tr);
   width: 120px;
+  font-size: 0.875rem;
   border-radius: var(--padding-md);
   cursor: pointer;
 }

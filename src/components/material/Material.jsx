@@ -76,18 +76,33 @@ function Material({
         className={`buttons ${!miniWindowIsOpen ? "closed" : ""}`}
         onClick={handleMiniWindowIsOpen}
       >
+        <div className="material-title">
+          {isLabExercise ? (
+            <LabExercise className="material-icon" />
+          ) : isAssignment ? (
+            <Project className="material-icon" />
+          ) : format === "pdf" ? (
+            <Pdf className="material-icon" />
+          ) : format === "pptx" ? (
+            <Pptx className="material-icon" />
+          ) : format === "xml" ? (
+            <Xml className="material-icon" />
+          ) : (
+            <Doc className="material-icon" />
+          )}
+          <span className="title">{topic}</span>
+        </div>
+        <div className="button download" onClick={handleDownloadWindow}>
+          Download
+        </div>
         {format === "pdf" && (
           <a href={path} target="_blank" className="button">
-            <Read /> Open in browser
+            Open in browser
           </a>
         )}
-        <div className="button" onClick={handleDownloadWindow}>
-          <Download />
-          Download Now
-        </div>
+
         <div className="button" onClick={handleDetailWindowIsOpen}>
-          <Properties />
-          View Properties
+          Properties
         </div>
         <div className="close-icon-for-mini-window hover-over">
           <Close />
