@@ -9,7 +9,5 @@
 }
 
 .course-list.on-search {
-  position: fixed;
-  top: calc(var(--padding-bg) * 5);
-  width: 100%;
+  transform: translateY(-10%);
 }
