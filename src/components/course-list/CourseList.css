@@ -11,3 +11,9 @@
 .course-list.on-search {
   transform: translateY(-30vh);
 }
+
+@media (max-width: 768px) {
+  .course-list.on-search {
+    transform: translateY(-20vh);
+  }
+}
