@@ -6,7 +6,7 @@ import Courses from "../courses/Courses.jsx";
 
 function CourseList() {
   const [search, setSearch] = useState("");
-  const [year, setYear] = useState(2017);
+  const [year, setYear] = useState(2018);
   const [isOnSearch, setIsOnSearch] = useState(false);
 
   function handleOnSearch() {
