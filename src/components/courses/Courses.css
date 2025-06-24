@@ -42,7 +42,7 @@
 
 .materials-wrapper .icon {
   position: absolute;
-  top: calc(var(--padding-md) * 3);
+  top: var(--padding-bg);
   right: var(--padding-md);
   padding: var(--padding-md);
 }

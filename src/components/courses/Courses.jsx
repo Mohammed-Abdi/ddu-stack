@@ -5,6 +5,7 @@ import Material from "../material/Material.jsx";
 import Course from "../course/Course.jsx";
 import CloseAnimated from "../../assets/nav-icon/CloseAnimated.jsx";
 import { useState } from "react";
+import CloseIcon from "../../assets/material-icon/Close.jsx";
 
 function Courses({ search, year }) {
   const [isOpen, setIsOpen] = useState(null);
@@ -66,7 +67,7 @@ function Courses({ search, year }) {
                           )
                         }
                       >
-                        <CloseAnimated />
+                        <CloseIcon />
                       </div>
                     </div>
                     <div className="material-list">
