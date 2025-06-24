@@ -1,55 +1,59 @@
+/* Navigation Panel (Sidebar)     */
 nav {
   position: fixed;
-  background-color: var(--light-clr);
-  width: min(300px, 100%);
-  height: 100vh;
-  left: 0;
   top: 0;
+  left: 0;
+  height: 100vh;
+  width: min(300px, 100%);
+  background-color: var(--light-clr);
   border-right: 1px solid var(--dark-tr);
   border-radius: 0 var(--padding-sm) var(--padding-sm) 0;
-  z-index: 1;
   padding-block: 4rem 2rem;
   padding-inline: 0 var(--padding-bg);
+  z-index: 1;
   transition: all 0.3s ease-in-out;
 }
 
+/* Closed State (Hidden Sidebar)  */
 nav.closed {
   left: -350px;
 }
 
-.nav-header {
-  display: flex;
-  padding-block: 1rem;
-}
-
+/* Navigation Icon Style */
 nav .icon {
   opacity: 0.7;
 }
 
+/* Navigation List Styling */
 nav ul {
   display: flex;
   flex-direction: column;
   gap: var(--padding-sm);
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+/* Navigation List Items */
 nav ul li {
   display: flex;
   align-items: center;
   gap: var(--padding-sm);
   flex-grow: 1;
   padding-block: var(--padding-md);
+  padding-left: var(--padding-bg);
   font-size: 0.875rem;
   border-radius: var(--padding-sm);
-  transition: background 0.3s ease-in-out;
   cursor: pointer;
-  padding-left: var(--padding-bg);
+  transition: background 0.3s ease-in-out;
 }
 
+/* Anchor Tag Styling Inside li */
 nav ul li a {
   flex-grow: 1;
 }
 
+/* Hover Effect on List Items */
 nav ul li:hover {
   background-color: var(--dark-tr);
 }

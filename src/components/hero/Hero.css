@@ -1,11 +1,13 @@
+/* Hero Section Container */
 .hero {
   text-align: center;
   padding-top: calc(var(--padding-bg) * 5);
   font-size: 0.875rem;
 }
 
+/* Responsive Typography */
 @media (min-width: 48rem) {
-  h1 {
+  .hero h1 {
     font-size: 50px;
   }
 }

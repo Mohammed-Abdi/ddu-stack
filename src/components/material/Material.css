@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-/* Section: Info Wrapper            */
+/* Section: Info Wrapper */
 .material-info-wrapper {
   display: flex;
   gap: var(--padding-md);
@@ -54,7 +54,7 @@
   transform: translateY(-50%);
 }
 
-/* Section: Buttons / Mini Window   */
+/* Section: Buttons / Mini Window */
 .buttons {
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@
   padding: var(--padding-md);
 }
 
-/* Section: Download Modal Window   */
+/* Section: Download Modal Window */
 .download-window {
   display: flex;
   align-items: center;

@@ -1,18 +1,24 @@
+/* Filter Container */
 .filter {
   display: flex;
   align-items: center;
   gap: var(--padding-bg);
 }
 
+/* Filter Buttons */
 .filter button {
+  padding: 0.5rem;
+  cursor: pointer;
   border-radius: var(--padding-md) var(--padding-md) 0 0;
   transition: background 0.3s ease-in-out;
 }
 
+/* Active Filter Highlight  */
 .highlight {
   border-bottom: 2px solid var(--dark-clr);
 }
 
+/* Hover Effect (Desktop Only) */
 @media (min-width: 768px) {
   .filter button:hover {
     background-color: var(--dark-tr);

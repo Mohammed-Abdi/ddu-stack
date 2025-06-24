@@ -1,4 +1,4 @@
-/* courses wrapper */
+/* Wrapper for All Courses */
 .courses-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -7,38 +7,40 @@
   padding: var(--padding-bg);
 }
 
+/* Active Search Mode */
 .courses-wrapper.on-search {
+  flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
-  flex-direction: column;
   width: min(500px, 100%);
   margin-inline: auto;
 }
 
-/* materials wrapper */
+/* Materials Modal Wrapper */
 .materials-wrapper {
-  display: flex;
-  gap: var(--padding-md);
-  flex-direction: column;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  position: fixed;
   width: min(500px, 100% - 20px);
+  height: 75vh;
   background-color: var(--light-clr);
   border: 1px dotted var(--dark-clr);
-  height: 75vh;
   border-radius: var(--padding-bg);
   padding: calc(var(--padding-md) * 3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-md);
   transition: transform 0.3s ease-in-out;
   z-index: 1;
 }
 
+/* Modal Hidden State */
 .materials-wrapper.closed {
   transform: translate(-50%, -50%) scaleY(0);
 }
 
-/* material header */
+/* Material Header (Title + Close Icon) */
 .material-header {
   width: 100%;
   padding-block: 1.5rem;
@@ -55,16 +57,17 @@
   padding: var(--padding-md);
 }
 
-/* material list */
+/* List of Materials */
 .material-list {
   display: flex;
   flex-direction: column;
-  gap: var(--padding-bg);
   align-items: center;
+  gap: var(--padding-bg);
   height: 100%;
   overflow-y: auto;
 }
 
+/* "Coming Soon" Fallback */
 .no-courses-yet {
   display: flex;
   flex-direction: column;
