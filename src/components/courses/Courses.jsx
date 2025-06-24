@@ -27,6 +27,8 @@ function Courses({ search, year, isOnSearch }) {
                 path={filteredMaterial.path}
                 size={filteredMaterial.size}
                 unit={filteredMaterial.unit}
+                isLabExercise={filteredMaterial.isLabExercise}
+                isAssignment={filteredMaterial.isAssignment}
               />
             ))
         : courses
@@ -83,6 +85,8 @@ function Courses({ search, year, isOnSearch }) {
                             path={filteredMaterial.path}
                             size={filteredMaterial.size}
                             unit={filteredMaterial.unit}
+                            isLabExercise={filteredMaterial.isLabExercise}
+                            isAssignment={filteredMaterial.isAssignment}
                           />
                         ))}
                     </div>
