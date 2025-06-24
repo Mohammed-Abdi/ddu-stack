@@ -6,6 +6,8 @@ import Navigation from "./components/navigation/Navigation.jsx";
 
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const [isOnSearch, setIsOnSearch] = useState(false);
+
   function handleMenu() {
     setMenuIsOpen((isOpen) => !isOpen);
   }
@@ -15,7 +17,7 @@ function App() {
       <Header menuIsOpen={menuIsOpen} onMenu={handleMenu} />
       <main>
         <Hero />
-        <CourseList />
+        <CourseList isOnSearch={isOnSearch} setIsOnSearch={setIsOnSearch} />
       </main>
     </>
   );

@@ -4,10 +4,9 @@ import SearchBar from "../search-bar/SearchBar.jsx";
 import "./CourseList.css";
 import Courses from "../courses/Courses.jsx";
 
-function CourseList() {
+function CourseList({ isOnSearch, setIsOnSearch }) {
   const [search, setSearch] = useState("");
   const [year, setYear] = useState(2018);
-  const [isOnSearch, setIsOnSearch] = useState(false);
 
   function handleOnSearch() {
     if (!isOnSearch) setIsOnSearch((value) => !value);
