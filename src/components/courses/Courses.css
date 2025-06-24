@@ -5,11 +5,11 @@
   justify-content: center;
   gap: var(--padding-bg);
   padding: var(--padding-bg);
-  overflow-y: auto;
 }
 
 .courses-wrapper.on-search {
   align-items: center;
+  flex-wrap: nowrap;
   flex-direction: column;
   width: min(500px, 100%);
   margin-inline: auto;
