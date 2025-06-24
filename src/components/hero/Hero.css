@@ -3,6 +3,14 @@
   padding-block: calc(var(--padding-bg) * 5) var(--padding-bg);
   font-size: 0.875rem;
   background-color: var(--light-clr);
+  transition: max-height 0.1s ease-in-out, padding-block 0.3s ease-in-out;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.hero.on-search {
+  max-height: 0;
+  padding-block: var(--padding-bg);
 }
 
 @media (min-width: 48rem) {
