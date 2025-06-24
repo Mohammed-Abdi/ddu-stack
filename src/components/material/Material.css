@@ -83,10 +83,16 @@
   width: 280px;
   overflow: hidden;
   z-index: 1;
+  transform: scaleY(1);
+  visibility: visible;
+  pointer-events: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 .material-details.closed {
-  display: none;
+  transform: scaleY(0);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .material-details .title {
@@ -139,19 +145,22 @@
   justify-content: center;
   flex-direction: column;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border: 1px dotted var(--dark-clr);
   width: 280px;
   background-color: var(--light-clr);
   padding: var(--padding-bg);
   border-radius: var(--padding-md);
   z-index: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .download-window.closed {
-  display: none;
+  transform: scale(0);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .notice {
