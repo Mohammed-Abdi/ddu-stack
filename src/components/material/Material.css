@@ -122,7 +122,7 @@
   overflow: hidden;
   position: absolute;
   background-color: var(--light-clr);
-  top: var(--padding-md);
+  top: var(--padding-bg);
   right: calc(var(--padding-md) * 5);
   z-index: 1;
 }
