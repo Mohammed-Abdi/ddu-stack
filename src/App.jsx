@@ -16,7 +16,7 @@ function App() {
       <Navigation isOpen={menuIsOpen} onMenu={handleMenu} />
       <Header menuIsOpen={menuIsOpen} onMenu={handleMenu} />
       <main>
-        <Hero />
+        <Hero isOnSearch={isOnSearch} />
         <CourseList isOnSearch={isOnSearch} setIsOnSearch={setIsOnSearch} />
       </main>
     </>
