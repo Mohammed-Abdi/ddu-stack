@@ -1,4 +1,4 @@
-/* Material Layout  */
+/* Container: Main Material Layout  */
 .material {
   display: flex;
   flex-direction: column;
@@ -11,14 +11,14 @@
   width: 100%;
 }
 
-/* Info Wrapper */
+/* Section: Info Wrapper            */
 .material-info-wrapper {
   display: flex;
   gap: var(--padding-md);
   align-items: center;
 }
 
-/* Overview Section */
+/* Section: Overview (Right Column) */
 .material-overview {
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
   font-size: 0.875rem;
 }
 
-/* More Icon */
+/* Positioned More Icon */
 .material .more {
   padding: var(--padding-md);
   position: absolute;
@@ -54,29 +54,81 @@
   transform: translateY(-50%);
 }
 
-/* Detail Section (animated toggle) */
-.material-detail {
+/* Section: Buttons / Mini Window   */
+.buttons {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  opacity: 0.7;
-  max-height: 100px;
-  overflow: hidden;
-  transition: all 0.1s ease-in-out;
+  width: fit-content;
+  border: 1px dotted var(--dark-clr);
+  border-radius: var(--padding-bg);
+  padding: var(--padding-bg);
+  background-color: var(--light-clr);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  gap: var(--padding-md);
+  z-index: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
-.material-detail.closed {
-  max-height: 0;
-  opacity: 0;
+.buttons.closed {
+  transform: translate(-50%, -50%) scale(0);
+  visibility: hidden;
+  pointer-events: none;
 }
 
-/* Detail Content */
+/* Title Section in Mini Window */
+.material-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--padding-bg);
+  text-align: center;
+  margin-bottom: var(--padding-md);
+}
+
+.material-title .material-icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* Individual Action Buttons */
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 0.75rem;
+  font-size: 0.875rem;
+  gap: var(--padding-md);
+  border-radius: var(--padding-md);
+  cursor: pointer;
+  width: 240px;
+  background: var(--dark-tr);
+  transition: background 0.3s ease-in-out;
+}
+
+.button.download {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+}
+
+/* Close Icon for Mini Window */
+.close-icon-for-mini-window {
+  position: absolute;
+  right: var(--padding-sm);
+  top: var(--padding-sm);
+  padding: var(--padding-md);
+}
+
+/* Section: Material Details Modal  */
 .material-details {
   display: flex;
   flex-direction: column;
   gap: var(--padding-md);
   font-size: 0.875rem;
-  padding-top: 0.5rem;
   background-color: var(--light-clr);
   border: 1px dotted var(--dark-clr);
   padding: var(--padding-bg);
@@ -113,66 +165,7 @@
   padding: var(--padding-md);
 }
 
-/* Buttons Section */
-.buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: fit-content;
-  border: 1px dotted var(--dark-clr);
-  border-radius: var(--padding-bg);
-  padding: calc(var(--padding-bg) * 1.5) var(--padding-bg);
-  overflow: hidden;
-  position: fixed;
-  background-color: var(--light-clr);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  z-index: 1;
-  gap: var(--padding-md);
-  visibility: visible;
-  pointer-events: auto;
-  transition: transform 0.3s ease-in-out;
-}
-
-.material-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--padding-bg);
-  text-align: center;
-  margin-bottom: var(--padding-md);
-}
-
-.material-title .material-icon {
-  width: 100px;
-  height: 100px;
-}
-
-.buttons.closed {
-  transform: translate(-50%, -50%) scale(0);
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  padding: 0.75rem 0.75rem;
-  font-size: 0.875rem;
-  gap: var(--padding-md);
-  border-radius: var(--padding-md);
-  cursor: pointer;
-  width: 240px;
-  background: var(--dark-tr);
-  transition: background 0.3s ease-in-out;
-}
-
-.button.download {
-  background-color: var(--dark-clr);
-  color: var(--light-clr);
-}
-
+/* Section: Download Modal Window   */
 .download-window {
   display: flex;
   align-items: center;
@@ -197,13 +190,6 @@
   transform: translate(-50%, -50%) scale(0);
   visibility: hidden;
   pointer-events: none;
-}
-
-.close-icon-for-mini-window {
-  position: absolute;
-  right: var(--padding-sm);
-  top: var(--padding-sm);
-  padding: var(--padding-md);
 }
 
 .notice {
@@ -233,10 +219,4 @@
 .download-btn {
   background-color: var(--dark-clr);
   color: var(--light-clr);
-}
-
-@media (min-width: 420px) {
-  .material {
-    min-width: 400;
-  }
 }
