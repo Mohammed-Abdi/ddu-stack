@@ -16,7 +16,7 @@ function CourseList({ isOnSearch, setIsOnSearch }) {
     setIsOnSearch(false);
   }
   return (
-    <section className="course-list">
+    <section className="course-list" id="search">
       <SearchBar
         search={search}
         setSearch={setSearch}

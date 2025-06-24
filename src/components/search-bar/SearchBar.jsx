@@ -9,11 +9,8 @@ function SearchBar({
   isOnSearch,
   onSearchBarOnClose,
 }) {
-  function handleSubmit(p) {
-    p.preventDefault();
-  }
   return (
-    <form className="search-bar" onSubmit={handleSubmit} onClick={onSearch}>
+    <a className="search-bar" onClick={onSearch} href="#search">
       <input
         type="text"
         placeholder="Search..."
@@ -22,13 +19,13 @@ function SearchBar({
       />
       <Search className="icon" />
       {isOnSearch || search ? (
-        <div className="search-close-icon" onClick={onSearchBarOnClose}>
+        <a href="#" className="search-close-icon" onClick={onSearchBarOnClose}>
           <CloseIcon />
-        </div>
+        </a>
       ) : (
         ""
       )}
-    </form>
+    </a>
   );
 }
 

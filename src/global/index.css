@@ -9,6 +9,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit";
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--padding-bg) * 3);
   -webkit-tap-highlight-color: transparent;
 }
 
