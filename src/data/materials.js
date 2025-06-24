@@ -719,7 +719,7 @@ const materials = [
     search:
       "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation lab exercise",
     format: "pdf",
-    path: "/docs/object-oriented-programming-chapter-4.pdf",
+    path: "/docs/object-oriented-programming-lab-4.pdf",
     size: 6.3,
     unit: "KB",
     isAssignment: false,
