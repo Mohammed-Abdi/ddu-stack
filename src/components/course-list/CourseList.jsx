@@ -10,7 +10,11 @@ function CourseList() {
   const [isOnSearch, setIsOnSearch] = useState(false);
 
   function handleOnSearch() {
-    setIsOnSearch((value) => !value);
+    if (!isOnSearch) setIsOnSearch((value) => !value);
+  }
+  function handleSearchBarOnClose() {
+    setSearch("");
+    setIsOnSearch(false);
   }
   return (
     <section
@@ -21,6 +25,7 @@ function CourseList() {
         setSearch={setSearch}
         isOnSearch={isOnSearch}
         onSearch={handleOnSearch}
+        onSearchBarOnClose={handleSearchBarOnClose}
       />
       {!isOnSearch && !search ? <Filter year={year} setYear={setYear} /> : ""}
       <Courses year={year} search={search} isOnSearch={isOnSearch} />

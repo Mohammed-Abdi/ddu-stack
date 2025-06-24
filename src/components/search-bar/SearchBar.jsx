@@ -1,7 +1,14 @@
+import CloseIcon from "../../assets/material-icon/Close.jsx";
 import Search from "../../assets/material-icon/Search.jsx";
 import "./SearchBar.css";
 
-function SearchBar({ search, setSearch, onSearch }) {
+function SearchBar({
+  search,
+  setSearch,
+  onSearch,
+  isOnSearch,
+  onSearchBarOnClose,
+}) {
   function handleSubmit(p) {
     p.preventDefault();
   }
@@ -14,6 +21,13 @@ function SearchBar({ search, setSearch, onSearch }) {
         onChange={(e) => setSearch(e.target.value)}
       />
       <Search className="icon" />
+      {isOnSearch || search ? (
+        <div className="search-close-icon" onClick={onSearchBarOnClose}>
+          <CloseIcon />
+        </div>
+      ) : (
+        ""
+      )}
     </form>
   );
 }
