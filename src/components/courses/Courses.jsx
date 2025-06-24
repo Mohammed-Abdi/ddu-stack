@@ -6,12 +6,12 @@ import Course from "../course/Course.jsx";
 import { useState } from "react";
 import CloseIcon from "../../assets/material-icon/Close.jsx";
 
-function Courses({ search, year, isOnSearch }) {
+function Courses({ search, year }) {
   const [isOpen, setIsOpen] = useState(null);
 
   return (
-    <div className={`courses-wrapper ${isOnSearch ? "on-search" : ""}`}>
-      {isOnSearch || search
+    <div className={`courses-wrapper ${search ? "on-search" : ""}`}>
+      {search
         ? materials
             .filter((material) =>
               material.search.toLowerCase().includes(search.toLowerCase())

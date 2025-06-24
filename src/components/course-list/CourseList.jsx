@@ -4,28 +4,22 @@ import SearchBar from "../search-bar/SearchBar.jsx";
 import "./CourseList.css";
 import Courses from "../courses/Courses.jsx";
 
-function CourseList({ isOnSearch, setIsOnSearch }) {
+function CourseList() {
   const [search, setSearch] = useState("");
   const [year, setYear] = useState(2018);
 
   function handleOnSearch() {
-    if (!isOnSearch) setIsOnSearch((value) => !value);
-  }
-  function handleSearchBarOnClose() {
-    setSearch("");
-    setIsOnSearch(false);
+    document.getElementById("search")?.scrollIntoView();
   }
   return (
     <section className="course-list" id="search">
       <SearchBar
         search={search}
         setSearch={setSearch}
-        isOnSearch={isOnSearch}
         onSearch={handleOnSearch}
-        onSearchBarOnClose={handleSearchBarOnClose}
       />
-      {!isOnSearch && !search ? <Filter year={year} setYear={setYear} /> : ""}
-      <Courses year={year} search={search} isOnSearch={isOnSearch} />
+      {!search ? <Filter year={year} setYear={setYear} /> : ""}
+      <Courses year={year} search={search} />
     </section>
   );
 }
