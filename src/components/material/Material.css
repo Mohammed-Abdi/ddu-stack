@@ -81,7 +81,7 @@
   padding: var(--padding-bg);
   border-radius: var(--padding-bg);
   position: fixed;
-  width: min(500px, 100% - 20px);
+  width: min(500px, 100%);
   height: 75vh;
   padding-top: calc(var(--padding-bg) * 2);
   overflow: hidden;
