@@ -8,6 +8,7 @@
 }
 
 .courses-wrapper.on-search {
+  align-items: center;
   flex-direction: column;
 }
 

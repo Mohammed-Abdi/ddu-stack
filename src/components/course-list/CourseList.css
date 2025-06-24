@@ -9,5 +9,7 @@
 }
 
 .course-list.on-search {
-  transform: translateY(-210px);
+  position: fixed;
+  top: calc(var(--padding-bg) * 5);
+  width: 100%;
 }
