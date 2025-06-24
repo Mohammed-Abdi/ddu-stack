@@ -120,7 +120,7 @@
   align-items: center;
   width: fit-content;
   border: 1px dotted var(--dark-clr);
-  border-radius: var(--padding-md);
+  border-radius: var(--padding-bg);
   padding: calc(var(--padding-bg) * 1.5) var(--padding-bg);
   overflow: hidden;
   position: fixed;
