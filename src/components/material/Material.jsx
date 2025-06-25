@@ -60,7 +60,13 @@ function Material({
           </div>
           <div className="material-overview">
             <span className="chapter">
-              {chapter > 0 ? `Chapter ${chapter}` : "Assignment"}
+              {isAssignment
+                ? "Assignment"
+                : isLabExercise
+                ? "Lab Exercise"
+                : isWorkBook
+                ? "WorkBook"
+                : `Chapter ${chapter}`}
             </span>
             <span className="topic">{topic}</span>
             <span className="name">{name}</span>
