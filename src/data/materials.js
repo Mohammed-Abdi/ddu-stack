@@ -1,4 +1,5 @@
 const materials = [
+  //Data structure and algorithms
   {
     id: "SOEng2022CH1",
     name: "Data structure and algorithms",
@@ -6,7 +7,7 @@ const materials = [
     topic: "Introduction to data structure and algorithms",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter one chapter 1 Introduction to data structure and algorithms",
+      "dsa chapter one dsa chapter 1 dsa Introduction to data structure and algorithms Data structure and algorithms chapter one Data structure and algorithms chapter 1 Data structure and algorithms Introduction to data structure and algorithms",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-1.pdf",
     size: 422,
@@ -22,7 +23,7 @@ const materials = [
     topic: "Simple sorting and searching algorithms",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter two chapter 2 Simple sorting and searching algorithms",
+      "dsa chapter two dsa chapter 2 dsa Simple sorting and searching algorithms Data structure and algorithms chapter two Data structure and algorithms chapter 2 Data structure and algorithms Simple sorting and searching algorithms",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-2.pdf",
     size: 1.18,
@@ -38,7 +39,7 @@ const materials = [
     topic: "Linked list data structure and its applications",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter three chapter 3 Linked list data structure and its applications",
+      "dsa chapter three dsa chapter 3 dsa Linked list data structure and its applications Data structure and algorithms chapter three Data structure and algorithms chapter 3 Data structure and algorithms Linked list data structure and its applications",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-3.pdf",
     size: 837,
@@ -54,7 +55,7 @@ const materials = [
     topic: "Stack and its application",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter four chapter 4 Stack and its application",
+      "dsa chapter four dsa chapter 4 dsa Stack and its application Data structure and algorithms chapter four Data structure and algorithms chapter 4 Data structure and algorithms Stack and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-4.pdf",
     size: 2.37,
@@ -70,7 +71,7 @@ const materials = [
     topic: "Queue and its application",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter five chapter 5 Queue and its application",
+      "dsa chapter five dsa chapter 5 dsa Queue and its application Data structure and algorithms chapter five Data structure and algorithms chapter 5 Data structure and algorithms Queue and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-5.pdf",
     size: 1.4,
@@ -86,7 +87,7 @@ const materials = [
     topic: "Graph and its application",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter six chapter 6 Graph and its application",
+      "dsa chapter six dsa chapter 6 dsa Graph and its application Data structure and algorithms chapter six Data structure and algorithms chapter 6 Data structure and algorithms Graph and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-6.pdf",
     size: 3.1,
@@ -102,7 +103,7 @@ const materials = [
     topic: "Tree and its application",
     code: "SOEng2022",
     search:
-      "data structure and algorithms chapter seven chapter 7 Tree and its application",
+      "dsa chapter seven dsa chapter 7 dsa Tree and its application Data structure and algorithms chapter seven Data structure and algorithms chapter 7 Data structure and algorithms Tree and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-7.pdf",
     size: 2.49,
@@ -111,6 +112,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Fundamentals of database
   {
     id: "SOEng2042CH1",
     name: "Fundamentals of database",
@@ -118,7 +120,7 @@ const materials = [
     topic: "Introduction to database system",
     code: "SOEng2042",
     search:
-      "fundamentals of database chapter one chapter 1 Introduction to database system",
+      "fdb chapter one fdb chapter 1 fdb Introduction to database system Fundamentals of database chapter one Fundamentals of database chapter 1 Fundamentals of database Introduction to database system",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-1.pdf",
     size: 255,
@@ -133,7 +135,8 @@ const materials = [
     chapter: 2,
     topic: "Relational model",
     code: "SOEng2042",
-    search: "fundamentals of database chapter two chapter 2 Relational model",
+    search:
+      "fdb chapter two fdb chapter 2 fdb Relational model Fundamentals of database chapter two Fundamentals of database chapter 2 Fundamentals of database Relational model",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-2.pdf",
     size: 261,
@@ -149,7 +152,7 @@ const materials = [
     topic: "Conceptual design: ER modeling",
     code: "SOEng2042",
     search:
-      "fundamentals of database chapter three chapter 3 conceptual design ER modeling",
+      "fdb chapter three fdb chapter 3 fdb Conceptual design ER modeling fdb ER modeling Fundamentals of database chapter three Fundamentals of database chapter 3 Fundamentals of database Conceptual design ER modeling Fundamentals of database ER modeling",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-3.pdf",
     size: 552,
@@ -165,7 +168,7 @@ const materials = [
     topic: "Functional Dependencies and normalization for relational database",
     code: "SOEng2042",
     search:
-      "fundamentals of database chapter four chapter 4 Functional Dependencies and normalization for relational database",
+      "fdb chapter four fdb chapter 4 fdb Functional Dependencies and normalization for relational database Fundamentals of database chapter four Fundamentals of database chapter 4 Fundamentals of database Functional Dependencies and normalization for relational database",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-4.pdf",
     size: 256,
@@ -181,7 +184,7 @@ const materials = [
     topic: "All Chapter short note",
     code: "SOEng2042",
     search:
-      "fundamentals of database chapter one chapter two chapter three chapter four  chapter 1 chapter 2 chapter 3 chapter 4 Introduction to database system Relational model conceptual design ER modeling Functional Dependencies and normalization for relational database",
+      "fdb chapter one fdb chapter 1 fdb Introduction to database system Fundamentals of database chapter one Fundamentals of database chapter 1 Fundamentals of database Introduction to database system fdb chapter two fdb chapter 2 fdb Relational model Fundamentals of database chapter two Fundamentals of database chapter 2 Fundamentals of database Relational model fdb chapter three fdb chapter 3 fdb Conceptual design ER modeling fdb ER modeling Fundamentals of database chapter three Fundamentals of database chapter 3 Fundamentals of database Conceptual design ER modeling Fundamentals of database ER modeling fdb chapter four fdb chapter 4 fdb Functional Dependencies and normalization for relational database Fundamentals of database chapter four Fundamentals of database chapter 4 Fundamentals of database Functional Dependencies and normalization for relational database",
     format: "pdf",
     path: "/docs/fundamentals-of-database-short-note.pdf",
     size: 1.3,
@@ -190,6 +193,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Advanced software engineering
   {
     id: "SOEng2054CH1",
     name: "Advanced software engineering",
@@ -334,6 +338,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Digital logic design
   {
     id: "ECEG2142CH1",
     name: "Digital logic design",
@@ -413,6 +418,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Object oriented system analysis and design
   {
     id: "SOEng2052CH1-8",
     name: "Object oriented system analysis and design",
@@ -429,6 +435,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Operating systems
   {
     id: "SOEng2032CH1",
     name: "Operating systems",
@@ -520,6 +527,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Fundamentals of software engineering
   {
     id: "SOEng2051CH1",
     name: "Fundamentals of software engineering",
@@ -616,6 +624,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Fundamentals of programming II
   {
     id: "SOEng2021CH1",
     name: "Fundamentals of programming II",
@@ -694,6 +703,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Object oriented programming
   {
     id: "SOEng3061CH1",
     name: "Object oriented programming",
@@ -838,6 +848,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Software engineering tools and practices
   {
     id: "SOEng3051CH1",
     name: "Software engineering tools and practices",
@@ -966,6 +977,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Data communication and computer network
   {
     id: "SOEng3071CH1",
     name: "Data communication and computer network",
@@ -1159,6 +1171,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Computer organization and architecture
   {
     id: "SOEng3031CH1",
     name: "Computer organization and architecture",
@@ -1320,6 +1333,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+  // Design and analysis of algorithm
   {
     id: "SOEng3021CH1",
     name: "Design and analysis of algorithm",
