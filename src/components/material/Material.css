@@ -4,7 +4,8 @@
   flex-direction: column;
   justify-content: space-between;
   gap: var(--padding-sm);
-  border: 1px dotted var(--dark-clr);
+  border: 1px solid var(--border-light);
+  background-color: var(--background-light);
   position: relative;
   padding: var(--padding-md);
   border-radius: var(--padding-md);
@@ -61,7 +62,7 @@
   flex-direction: column;
   align-items: center;
   width: fit-content;
-  border: 1px dotted var(--dark-clr);
+  border: 1px solid var(--border-light);
   border-radius: var(--padding-bg);
   padding: var(--padding-bg);
   background-color: var(--light-clr);
@@ -131,7 +132,7 @@
   gap: var(--padding-md);
   font-size: 0.875rem;
   background-color: var(--light-clr);
-  border: 1px dotted var(--dark-clr);
+  border: 1px solid var(--border-light);
   padding: var(--padding-bg);
   border-radius: var(--padding-bg);
   position: fixed;
@@ -173,7 +174,7 @@
   justify-content: center;
   flex-direction: column;
   position: fixed;
-  border: 1px dotted var(--dark-clr);
+  border: 1px solid var(--border-light);
   width: 280px;
   top: 50%;
   left: 50%;
