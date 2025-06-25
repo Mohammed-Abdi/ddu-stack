@@ -27,7 +27,7 @@ A sleek web app for browsing, previewing, and downloading university documents b
 - 🔍 Built-in search for fast access
 - ⚡ Lightning-fast performance ensures smooth, reliable access anytime
 - 🗂️ Clear file types — spot assignments, labs, and workbooks at a glance
-  🎯 Categorized by academic years for easy, organized browsing
+- 🎯 Categorized by academic years for easy, organized browsing
 - 🧾 Supports `pdf`, `pptx`, `docx`, `xml`,and more
 - 📥 Download or preview with one click
 - 📱 Fully responsive UI
