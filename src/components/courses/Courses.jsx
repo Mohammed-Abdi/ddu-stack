@@ -30,6 +30,7 @@ function Courses({ search, year }) {
               unit={filteredMaterial.unit}
               isLabExercise={filteredMaterial.isLabExercise}
               isAssignment={filteredMaterial.isAssignment}
+              isWorkBook={filteredMaterial.isWorkBook}
             />
           ))
       ) : courses.filter((course) => course.year == year).length !== 0 ? (
@@ -87,6 +88,7 @@ function Courses({ search, year }) {
                           unit={filteredMaterial.unit}
                           isLabExercise={filteredMaterial.isLabExercise}
                           isAssignment={filteredMaterial.isAssignment}
+                          isWorkBook={filteredMaterial.isWorkBook}
                         />
                       ))}
                   </div>
