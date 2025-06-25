@@ -1,0 +1,30 @@
+.hamburger {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 2;
+}
+
+.bar {
+  width: 15px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: var(--dark-clr);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(5.75px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-5.75px) rotate(-45deg);
+}

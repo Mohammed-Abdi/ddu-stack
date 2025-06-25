@@ -1,5 +1,6 @@
 import Github from "../../assets/nav-icon/Github.jsx";
 import Hamburger from "../hamburger/Hamburger.jsx";
+import Doc from "../../assets/file-icon/Doc.jsx";
 import "./Header.css";
 
 function Header({ menuIsOpen, onMenu }) {
@@ -12,7 +13,7 @@ function Header({ menuIsOpen, onMenu }) {
           rel="noopener noreferrer"
           className="logo"
         >
-          <img src="/favicon/logo.svg" width={32} height={32} />
+          <Doc />
           DDU<span style={{ color: "var(--accent-clr)" }}>STACK</span>
         </a>
       </div>
