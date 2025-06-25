@@ -7,7 +7,7 @@ const materials = [
     topic: "Introduction to data structure and algorithms",
     code: "SOEng2022",
     search:
-      "dsa chapter one dsa chapter 1 dsa Introduction to data structure and algorithms Data structure and algorithms chapter one Data structure and algorithms chapter 1 Data structure and algorithms Introduction to data structure and algorithms",
+      "SOEng2022 dsa chapter one dsa chapter 1 dsa Introduction to data structure and algorithms Data structure and algorithms chapter one Data structure and algorithms chapter 1 Data structure and algorithms Introduction to data structure and algorithms",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-1.pdf",
     size: 422,
@@ -23,7 +23,7 @@ const materials = [
     topic: "Simple sorting and searching algorithms",
     code: "SOEng2022",
     search:
-      "dsa chapter two dsa chapter 2 dsa Simple sorting and searching algorithms Data structure and algorithms chapter two Data structure and algorithms chapter 2 Data structure and algorithms Simple sorting and searching algorithms",
+      "SOEng2022 dsa chapter two dsa chapter 2 dsa Simple sorting and searching algorithms Data structure and algorithms chapter two Data structure and algorithms chapter 2 Data structure and algorithms Simple sorting and searching algorithms",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-2.pdf",
     size: 1.18,
@@ -39,7 +39,7 @@ const materials = [
     topic: "Linked list data structure and its applications",
     code: "SOEng2022",
     search:
-      "dsa chapter three dsa chapter 3 dsa Linked list data structure and its applications Data structure and algorithms chapter three Data structure and algorithms chapter 3 Data structure and algorithms Linked list data structure and its applications",
+      "SOEng2022 dsa chapter three dsa chapter 3 dsa Linked list data structure and its applications Data structure and algorithms chapter three Data structure and algorithms chapter 3 Data structure and algorithms Linked list data structure and its applications",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-3.pdf",
     size: 837,
@@ -55,7 +55,7 @@ const materials = [
     topic: "Stack and its application",
     code: "SOEng2022",
     search:
-      "dsa chapter four dsa chapter 4 dsa Stack and its application Data structure and algorithms chapter four Data structure and algorithms chapter 4 Data structure and algorithms Stack and its application",
+      "SOEng2022 dsa chapter four dsa chapter 4 dsa Stack and its application Data structure and algorithms chapter four Data structure and algorithms chapter 4 Data structure and algorithms Stack and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-4.pdf",
     size: 2.37,
@@ -71,7 +71,7 @@ const materials = [
     topic: "Queue and its application",
     code: "SOEng2022",
     search:
-      "dsa chapter five dsa chapter 5 dsa Queue and its application Data structure and algorithms chapter five Data structure and algorithms chapter 5 Data structure and algorithms Queue and its application",
+      "SOEng2022 dsa chapter five dsa chapter 5 dsa Queue and its application Data structure and algorithms chapter five Data structure and algorithms chapter 5 Data structure and algorithms Queue and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-5.pdf",
     size: 1.4,
@@ -87,7 +87,7 @@ const materials = [
     topic: "Graph and its application",
     code: "SOEng2022",
     search:
-      "dsa chapter six dsa chapter 6 dsa Graph and its application Data structure and algorithms chapter six Data structure and algorithms chapter 6 Data structure and algorithms Graph and its application",
+      "SOEng2022 dsa chapter six dsa chapter 6 dsa Graph and its application Data structure and algorithms chapter six Data structure and algorithms chapter 6 Data structure and algorithms Graph and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-6.pdf",
     size: 3.1,
@@ -103,7 +103,7 @@ const materials = [
     topic: "Tree and its application",
     code: "SOEng2022",
     search:
-      "dsa chapter seven dsa chapter 7 dsa Tree and its application Data structure and algorithms chapter seven Data structure and algorithms chapter 7 Data structure and algorithms Tree and its application",
+      "SOEng2022 dsa chapter seven dsa chapter 7 dsa Tree and its application Data structure and algorithms chapter seven Data structure and algorithms chapter 7 Data structure and algorithms Tree and its application",
     format: "pdf",
     path: "/docs/data-structure-and-algorithms-chapter-7.pdf",
     size: 2.49,
@@ -120,7 +120,7 @@ const materials = [
     topic: "Introduction to database system",
     code: "SOEng2042",
     search:
-      "fdb chapter one fdb chapter 1 fdb Introduction to database system Fundamentals of database chapter one Fundamentals of database chapter 1 Fundamentals of database Introduction to database system",
+      "SOEng2042 fdb chapter one fdb chapter 1 fdb Introduction to database system Fundamentals of database chapter one Fundamentals of database chapter 1 Fundamentals of database Introduction to database system",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-1.pdf",
     size: 255,
@@ -136,7 +136,7 @@ const materials = [
     topic: "Relational model",
     code: "SOEng2042",
     search:
-      "fdb chapter two fdb chapter 2 fdb Relational model Fundamentals of database chapter two Fundamentals of database chapter 2 Fundamentals of database Relational model",
+      "SOEng2042 fdb chapter two fdb chapter 2 fdb Relational model Fundamentals of database chapter two Fundamentals of database chapter 2 Fundamentals of database Relational model",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-2.pdf",
     size: 261,
@@ -152,7 +152,7 @@ const materials = [
     topic: "Conceptual design: ER modeling",
     code: "SOEng2042",
     search:
-      "fdb chapter three fdb chapter 3 fdb Conceptual design ER modeling fdb ER modeling Fundamentals of database chapter three Fundamentals of database chapter 3 Fundamentals of database Conceptual design ER modeling Fundamentals of database ER modeling",
+      "SOEng2042 fdb chapter three fdb chapter 3 fdb Conceptual design ER modeling fdb ER modeling Fundamentals of database chapter three Fundamentals of database chapter 3 Fundamentals of database Conceptual design ER modeling Fundamentals of database ER modeling",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-3.pdf",
     size: 552,
@@ -168,7 +168,7 @@ const materials = [
     topic: "Functional Dependencies and normalization for relational database",
     code: "SOEng2042",
     search:
-      "fdb chapter four fdb chapter 4 fdb Functional Dependencies and normalization for relational database Fundamentals of database chapter four Fundamentals of database chapter 4 Fundamentals of database Functional Dependencies and normalization for relational database",
+      "SOEng2042 fdb chapter four fdb chapter 4 fdb Functional Dependencies and normalization for relational database Fundamentals of database chapter four Fundamentals of database chapter 4 Fundamentals of database Functional Dependencies and normalization for relational database",
     format: "pdf",
     path: "/docs/fundamentals-of-database-chapter-4.pdf",
     size: 256,
@@ -184,7 +184,7 @@ const materials = [
     topic: "All Chapter short note",
     code: "SOEng2042",
     search:
-      "fdb chapter one fdb chapter 1 fdb Introduction to database system Fundamentals of database chapter one Fundamentals of database chapter 1 Fundamentals of database Introduction to database system fdb chapter two fdb chapter 2 fdb Relational model Fundamentals of database chapter two Fundamentals of database chapter 2 Fundamentals of database Relational model fdb chapter three fdb chapter 3 fdb Conceptual design ER modeling fdb ER modeling Fundamentals of database chapter three Fundamentals of database chapter 3 Fundamentals of database Conceptual design ER modeling Fundamentals of database ER modeling fdb chapter four fdb chapter 4 fdb Functional Dependencies and normalization for relational database Fundamentals of database chapter four Fundamentals of database chapter 4 Fundamentals of database Functional Dependencies and normalization for relational database",
+      "SOEng2042 fdb chapter one fdb chapter 1 fdb Introduction to database system Fundamentals of database chapter one Fundamentals of database chapter 1 Fundamentals of database Introduction to database system fdb chapter two fdb chapter 2 fdb Relational model Fundamentals of database chapter two Fundamentals of database chapter 2 Fundamentals of database Relational model fdb chapter three fdb chapter 3 fdb Conceptual design ER modeling fdb ER modeling Fundamentals of database chapter three Fundamentals of database chapter 3 Fundamentals of database Conceptual design ER modeling Fundamentals of database ER modeling fdb chapter four fdb chapter 4 fdb Functional Dependencies and normalization for relational database Fundamentals of database chapter four Fundamentals of database chapter 4 Fundamentals of database Functional Dependencies and normalization for relational database",
     format: "pdf",
     path: "/docs/fundamentals-of-database-short-note.pdf",
     size: 1.3,
@@ -201,7 +201,7 @@ const materials = [
     topic: "Software testing",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter one chapter 1 Software testing",
+      "SOEng2054 ase chapter one ase chapter 1 ase Software testing Advanced software engineering chapter one Advanced software engineering chapter 1 Advanced software engineering Software testing",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-1.pdf",
     size: 0.99,
@@ -217,7 +217,7 @@ const materials = [
     topic: "Software maintenance",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter two chapter 2 Software maintenance",
+      "SOEng2054 ase chapter two ase chapter 2 ase Software maintenance Advanced software engineering chapter two Advanced software engineering chapter 2 Advanced software engineering Software maintenance",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-2.pdf",
     size: 631,
@@ -233,7 +233,7 @@ const materials = [
     topic: "Software process improvement",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter three chapter 3 Software process improvement spi",
+      "SOEng2054 ase chapter three ase chapter 3 ase Software process improvement ase spi Advanced software engineering chapter three Advanced software engineering chapter 3 Advanced software engineering Software process improvement Advanced software engineering spi",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-3.pdf",
     size: 580,
@@ -249,7 +249,7 @@ const materials = [
     topic: "Software reuse",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter four chapter 4 Software reuse sr",
+      "SOEng2054 ase chapter four ase chapter 4 ase Software reuse ase sr Advanced software engineering chapter four Advanced software engineering chapter 4 Advanced software engineering Software reuse Advanced software engineering sr",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-4.pdf",
     size: 543,
@@ -265,7 +265,7 @@ const materials = [
     topic: "component based software engineering",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter five chapter 5 component based software engineering CbSe",
+      "SOEng2054 ase chapter five ase chapter 5 ase component based software engineering ase cbse Advanced software engineering chapter five Advanced software engineering chapter 5 Advanced software engineering component based software engineering Advanced software engineering cbse",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-5.pdf",
     size: 0.99,
@@ -281,7 +281,7 @@ const materials = [
     topic: "Service oriented software engineering",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter six chapter 6 Service oriented software engineering",
+      "SOEng2054 ase chapter six ase chapter 6 ase Service oriented software engineering Advanced software engineering chapter six Advanced software engineering chapter 6 Advanced software engineering Service oriented software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-6.pdf",
     size: 1.03,
@@ -297,7 +297,7 @@ const materials = [
     topic: "Real time software engineering",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter seven chapter 7 Real time software engineering",
+      "SOEng2054 ase chapter seven ase chapter 7 ase Real time software engineering Advanced software engineering chapter seven Advanced software engineering chapter 7 Advanced software engineering Real time software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-7.pdf",
     size: 0.89,
@@ -313,7 +313,7 @@ const materials = [
     topic: "Aspect oriented software engineering",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter eight chapter 8 Aspect oriented software engineering",
+      "SOEng2054 ase chapter eight ase chapter 8 ase Aspect oriented software engineering Advanced software engineering chapter eight Advanced software engineering chapter 8 Advanced software engineering Aspect oriented software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-8.pdf",
     size: 535,
@@ -329,7 +329,7 @@ const materials = [
     topic: "Emerging trends in software engineering",
     code: "SOEng2054",
     search:
-      "advanced software engineering chapter nine chapter 9 Emerging trends in software engineering",
+      "SOEng2054 ase chapter nine ase chapter 9 ase Emerging trends in software engineering Advanced software engineering chapter nine Advanced software engineering chapter 9 Advanced software engineering Emerging trends in software engineering",
     format: "pdf",
     path: "/docs/advanced-software-engineering-chapter-9.pdf",
     size: 397,
@@ -346,7 +346,7 @@ const materials = [
     topic: "Introduction to digital systems",
     code: "ECEG2142",
     search:
-      "digital logic design chapter one chapter 1 Introduction to digital systems",
+      "ECEG2142 dld chapter one dld chapter 1 dld Introduction to digital systems Digital logic design chapter one Digital logic design chapter 1 Digital logic design Introduction to digital systems",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-1.pptx",
     size: 83.4,
@@ -362,7 +362,7 @@ const materials = [
     topic: "Number system, operations and codes",
     code: "ECEG2142",
     search:
-      "digital logic design chapter two chapter 2 Number system operations and codes",
+      "ECEG2142 dld chapter two dld chapter 2 dld Number system operations and codes Digital logic design chapter two Digital logic design chapter 2 Digital logic design Number system operations and codes",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-2.pptx",
     size: 1.65,
@@ -377,7 +377,8 @@ const materials = [
     chapter: 3,
     topic: "Logic gates",
     code: "ECEG2142",
-    search: "digital logic design chapter three chapter 3 Logic gates",
+    search:
+      "ECEG2142 dld chapter three dld chapter 3 dld Logic gates Digital logic design chapter three Digital logic design chapter 3 Digital logic design Logic gates",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-3.pptx",
     size: 2.07,
@@ -393,7 +394,7 @@ const materials = [
     topic: "Boolean algebra and logic simplification",
     code: "ECEG2142",
     search:
-      "digital logic design chapter four chapter 4 Boolean algebra and logic simplification",
+      "ECEG2142 dld chapter four dld chapter 4 dld Boolean algebra and logic simplification Digital logic design chapter four Digital logic design chapter 4 Digital logic design Boolean algebra and logic simplification",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-4.pptx",
     size: 1.95,
@@ -409,7 +410,7 @@ const materials = [
     topic: "Combinational logic circuit analysis",
     code: "ECEG2142",
     search:
-      "digital logic design chapter five chapter 5 Combinational logic circuit analysis",
+      "ECEG2142 dld chapter five dld chapter 5 dld Combinational logic circuit analysis Digital logic design chapter five Digital logic design chapter 5 Digital logic design Combinational logic circuit analysis",
     format: "pptx",
     path: "/docs/digital-logic-design-chapter-5.pptx",
     size: 2.51,
@@ -425,8 +426,22 @@ const materials = [
     chapter: "1-8",
     topic: "All chapters",
     code: "SOEng2052",
-    search:
-      "object oriented system analysis and design chapter one chapter 1 object oriented the new software paradigm chapter two chapter 2 understanding the basics of object orientation chapter three chapter 3 gathering user requirements chapter four chapter 4 ensuring your requirements are correct chapter five chapter 5 determining what to build object oriented analysis chapter six chapter 6 determining how to build your system object oriented design chapter seven chapter 7 object oriented testing and maintenance chapter eight chapter 8 software process",
+    search: `SOEng2052 object oriented system analysis and design chapter one object oriented system analysis and design chapter 1 object oriented system analysis and design object oriented the new software paradigm object oriented system analysis and design the new software paradigm object oriented system analysis and design paradigm
+object oriented system analysis and design chapter two object oriented system analysis and design chapter 2 object oriented system analysis and design understanding the basics of object orientation
+object oriented system analysis and design chapter three object oriented system analysis and design chapter 3 object oriented system analysis and design gathering user requirements
+object oriented system analysis and design chapter four object oriented system analysis and design chapter 4 object oriented system analysis and design ensuring your requirements are correct object oriented system analysis and design ensuring requirements are correct object oriented system analysis and design ensure requirements are correct
+object oriented system analysis and design chapter five object oriented system analysis and design chapter 5 object oriented system analysis and design determining what to build object oriented analysis object oriented system analysis and design object oriented analysis object oriented system analysis and design object-oriented analysis object oriented system analysis and design determining what to build: object-oriented analysis object oriented system analysis and design determining what to build: object-oriented analysis
+object oriented system analysis and design chapter six object oriented system analysis and design chapter 6 object oriented system analysis and design determining how to build your system: object-oriented design object oriented system analysis and design determining how to build your system: object oriented design object oriented system analysis and design determining how to build your system object oriented design object oriented system analysis and design determining how to build your system object-oriented design
+object oriented system analysis and design chapter seven object oriented system analysis and design chapter 7 object oriented system analysis and design object-oriented testing and maintenance object oriented system analysis and design object oriented testing and maintenance object oriented system analysis and design object-oriented maintenance object oriented system analysis and design object-oriented  maintenance
+object oriented system analysis and design chapter eight object oriented system analysis and design chapter 8 object oriented system analysis and design software process
+oosad chapter one oosad chapter 1 oosad object oriented the new software paradigm oosad the new software paradigm oosad paradigm
+oosad chapter two oosad chapter 2 oosad understanding the basics of object orientation
+oosad chapter three oosad chapter 3 oosad gathering user requirements
+oosad chapter four oosad chapter 4 oosad ensuring your requirements are correct oosad ensuring requirements are correct oosad ensure requirements are correct
+oosad chapter five oosad chapter 5 oosad determining what to build object oriented analysis oosad object oriented analysis oosad object-oriented analysis oosad determining what to build: object-oriented analysis oosad determining what to build: object-oriented analysis
+oosad chapter six oosad chapter 6 oosad determining how to build your system: object-oriented design oosad determining how to build your system: object oriented design oosad determining how to build your system object oriented design oosad determining how to build your system object-oriented design
+oosad chapter seven oosad chapter 7 oosad object-oriented testing and maintenance oosad object oriented testing and maintenance oosad object-oriented maintenance oosad object-oriented  maintenance
+oosad chapter eight oosad chapter 8 oosad software process`,
     format: "pdf",
     path: "/docs/object-oriented-system-analysis-and-design-all-chapters.pdf",
     size: 3.47,
@@ -442,7 +457,8 @@ const materials = [
     chapter: 1,
     topic: "Operating systems",
     code: "SOEng2032",
-    search: "operating systems chapter one chapter 1 operating systems",
+    search:
+      "SOEng2032 os chapter one os chapter 1 os Operating systems Operating systems chapter one Operating systems chapter 1 Operating systems Operating systems",
     format: "pdf",
     path: "/docs/operating-systems-chapter-1.pdf",
     size: 1.32,
@@ -457,7 +473,8 @@ const materials = [
     chapter: 2,
     topic: "Process management",
     code: "SOEng2032",
-    search: "operating systems chapter two chapter 2 process management",
+    search:
+      "SOEng2032 os chapter two os chapter 2 os Process management Operating systems chapter two Operating systems chapter 2 Operating systems Process management",
     format: "pdf",
     path: "/docs/operating-systems-chapter-2.pdf",
     size: 1.33,
@@ -472,7 +489,8 @@ const materials = [
     chapter: 3,
     topic: "Memory management",
     code: "SOEng2032",
-    search: "operating systems chapter three chapter 3 memory management",
+    search:
+      "SOEng2032 os chapter three os chapter 3 os Memory management Operating systems chapter three Operating systems chapter 3 Operating systems Memory management",
     format: "pdf",
     path: "/docs/operating-systems-chapter-3.pdf",
     size: 1.26,
@@ -487,7 +505,8 @@ const materials = [
     chapter: 4,
     topic: "Device management",
     code: "SOEng2032",
-    search: "operating systems chapter four chapter 4 Device management",
+    search:
+      "SOEng2032 os chapter four os chapter 4 os Device management Operating systems chapter four Operating systems chapter 4 Operating systems Device management",
     format: "pdf",
     path: "/docs/operating-systems-chapter-4.pdf",
     size: 1.25,
@@ -502,7 +521,8 @@ const materials = [
     chapter: 5,
     topic: "File system",
     code: "SOEng2032",
-    search: "operating systems chapter five chapter 5 file system",
+    search:
+      "SOEng2032 os chapter five os chapter 5 os File system Operating systems chapter five Operating systems chapter 5 Operating systems File system",
     format: "pdf",
     path: "/docs/operating-systems-chapter-5.pdf",
     size: 1.84,
@@ -518,7 +538,7 @@ const materials = [
     topic: "Operating system security and protection",
     code: "SOEng2032",
     search:
-      "operating systems chapter six chapter 6 Operating system security and protection",
+      "SOEng2032 os chapter six os chapter 6 os Operating system security and protection Operating systems chapter six Operating systems chapter 6 Operating systems Operating system security and protection",
     format: "pdf",
     path: "/docs/operating-systems-chapter-6.pdf",
     size: 2.74,
@@ -535,7 +555,7 @@ const materials = [
     topic: "Introduction to software engineering",
     code: "SOEng2051",
     search:
-      "fundamentals of software engineering chapter one chapter 1 Introduction to software engineering",
+      "SOEng2051 fse chapter one fse chapter 1 fse Introduction to software engineering Fundamentals of software engineering chapter one Fundamentals of software engineering chapter 1 Fundamentals of software engineering Introduction to software engineering",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-1.pptx",
     size: 159,
@@ -551,7 +571,7 @@ const materials = [
     topic: "Software process and its models",
     code: "SOEng2051",
     search:
-      "fundamentals of software engineering chapter two chapter 2 software process models",
+      "SOEng2051 fse chapter two fse chapter 2 fse Software process and its models Fundamentals of software engineering chapter two Fundamentals of software engineering chapter 2 Fundamentals of software engineering Software process and its models",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-2.pptx",
     size: 269,
@@ -567,7 +587,7 @@ const materials = [
     topic: "Agile development",
     code: "SOEng2051",
     search:
-      "fundamentals of software engineering chapter three chapter 3 agile development",
+      "SOEng2051 fse chapter three fse chapter 3 fse Agile development Fundamentals of software engineering chapter three Fundamentals of software engineering chapter 3 Fundamentals of software engineering Agile development",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-3.pptx",
     size: 169,
@@ -583,7 +603,7 @@ const materials = [
     topic: "Software design",
     code: "SOEng2051",
     search:
-      "fundamentals of software engineering chapter four chapter 4 software design",
+      "SOEng2051 fse chapter four fse chapter 4 fse Software design Fundamentals of software engineering chapter four Fundamentals of software engineering chapter 4 Fundamentals of software engineering Software design",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-4.pptx",
     size: 1.59,
@@ -599,7 +619,7 @@ const materials = [
     topic: "Coding",
     code: "SOEng2051",
     search:
-      "fundamentals of software engineering chapter five chapter 5 coding",
+      "SOEng2051 fse chapter five fse chapter 5 fse Coding Fundamentals of software engineering chapter five Fundamentals of software engineering chapter 5 Fundamentals of software engineering Coding",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-5.pptx",
     size: 161,
@@ -615,7 +635,7 @@ const materials = [
     topic: "Project management",
     code: "SOEng2051",
     search:
-      "fundamentals of software engineering chapter six chapter 6 Project management",
+      "SOEng2051 fse chapter six fse chapter 6 fse Project management Fundamentals of software engineering chapter six Fundamentals of software engineering chapter 6 Fundamentals of software engineering Project management",
     format: "pptx",
     path: "/docs/fundamentals-of-software-engineering-chapter-6.pptx",
     size: 657,
@@ -632,7 +652,7 @@ const materials = [
     topic: "Basics of programming",
     code: "SOEng2021",
     search:
-      "fundamentals of programming chapter one chapter 1 Basics of programming",
+      "SOEng2021 fp2 chapter one fp2 chapter 1 fp2 Basics of programming Fundamentals of programming chapter one Fundamentals of programming chapter 1 Fundamentals of programming Basics of programming Fundamentals of programming II chapter one Fundamentals of programming II chapter 1 Fundamentals of programming II Basics of programming",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-1.pdf",
     size: 1.28,
@@ -648,7 +668,7 @@ const materials = [
     topic: "Array, and String",
     code: "SOEng2021",
     search:
-      "fundamentals of programming chapter two chapter 2 array and string arrays and string array, and string",
+      "SOEng2021 fp2 chapter two fp2 chapter 2 fp2 Array, and String fp2 Array and String fp2 String Fundamentals of programming chapter two Fundamentals of programming chapter 2 Fundamentals of programming Array, and String Fundamentals of programming Array and String Fundamentals of programming String Fundamentals of programming II chapter two Fundamentals of programming II chapter 2 Fundamentals of programming II Array, and String Fundamentals of programming II Array and String Fundamentals of programming II String",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-2.pdf",
     size: 1.06,
@@ -663,7 +683,8 @@ const materials = [
     chapter: 3,
     topic: "Pointer",
     code: "SOEng2021",
-    search: "fundamentals of programming chapter three chapter 3 pointers",
+    search:
+      "SOEng2021 fp2 chapter three fp2 chapter 3 fp2 Pointer Fundamentals of programming chapter three Fundamentals of programming chapter 3 Fundamentals of programming Pointer Fundamentals of programming II chapter three Fundamentals of programming II chapter 3 Fundamentals of programming II Pointer",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-3.pdf",
     size: 615,
@@ -678,7 +699,8 @@ const materials = [
     chapter: 4,
     topic: "File",
     code: "SOEng2021",
-    search: "fundamentals of programming chapter four chapter 4 file",
+    search:
+      "SOEng2021 fp2 chapter four fp2 chapter 4 fp2 File Fundamentals of programming chapter four Fundamentals of programming chapter 4 Fundamentals of programming File Fundamentals of programming II chapter four Fundamentals of programming II chapter 4 Fundamentals of programming II File",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-4.pdf",
     size: 631,
@@ -694,7 +716,7 @@ const materials = [
     topic: "C++ object oriented programming",
     code: "SOEng2021",
     search:
-      "fundamentals of programming chapter five chapter 5  c++ plus plus object oriented programming",
+      "SOEng2021 fp2 chapter five fp2 chapter 5 fp2 C++ object oriented programming Fundamentals of programming chapter five Fundamentals of programming chapter 5 Fundamentals of programming C++ object oriented programming Fundamentals of programming II chapter five Fundamentals of programming II chapter 5 Fundamentals of programming II C++ object oriented programming",
     format: "pdf",
     path: "/docs/fundamentals-of-programming-2-chapter-5.pdf",
     size: 749,
@@ -711,7 +733,7 @@ const materials = [
     topic: "Introduction to object oriented programming",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter one chapter 1 Introduction to object oriented programming",
+      "SOEng3061 oop chapter one oop chapter 1 oop Introduction to object oriented programming Object oriented programming chapter one Object oriented programming chapter 1 Object oriented programming Introduction to object oriented programming",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-1.pdf",
     size: 1.0,
@@ -724,10 +746,10 @@ const materials = [
     id: "SOEng3061CH2",
     name: "Object oriented programming",
     chapter: 2,
-    topic: "Object classes and objects",
+    topic: "Java objects and classes",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter two chapter 2 Object classes and objects",
+      "SOEng3061 oop chapter two oop chapter 2 oop Java objects and classes Object oriented programming chapter two Object oriented programming chapter 2 Object oriented programming Java objects and classes",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-2.pdf",
     size: 1.0,
@@ -743,7 +765,7 @@ const materials = [
     topic: "Inheritance and polymorphism",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter three chapter 3 Inheritance and polymorphism",
+      "SOEng3061 oop chapter three oop chapter 3 oop Inheritance and polymorphism Object oriented programming chapter three Object oriented programming chapter 3 Object oriented programming Inheritance and polymorphism",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-3.pdf",
     size: 899,
@@ -759,7 +781,7 @@ const materials = [
     topic: "Abstraction and encapsulation",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation",
+      "SOEng3061 oop chapter four oop chapter 4 oop Abstraction and encapsulation Object oriented programming chapter four Object oriented programming chapter 4 Object oriented programming Abstraction and encapsulation",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-4.pdf",
     size: 251,
@@ -775,7 +797,7 @@ const materials = [
     topic: "Lab Exercise: Abstraction and encapsulation",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 4 Abstraction and encapsulation lab exercise",
+      "SOEng3061 oop chapter four oop chapter 4 oop Abstraction and encapsulation lab exercise Object oriented programming chapter four Object oriented programming chapter 4 lab exercise Abstraction and encapsulation",
     format: "pdf",
     path: "/docs/object-oriented-programming-lab-4.pdf",
     size: 6.3,
@@ -791,7 +813,7 @@ const materials = [
     topic: "Java exception handling",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter five chapter 5 Java exception handling",
+      "SOEng3061 oop chapter five oop chapter 5 oop Java exception handling Object oriented programming chapter five Object oriented programming chapter 5 Object oriented programming Java exception handling",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-5.pdf",
     size: 364,
@@ -807,7 +829,7 @@ const materials = [
     topic: "Lab Exercise: Java exception handling",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 5 Java exception handling lab exercise",
+      "SOEng3061 oop chapter five oop chapter 5 oop Java exception handling lab exercise Object oriented programming chapter five Object oriented programming chapter 5 lab exercise Java exception handling",
     format: "pdf",
     path: "/docs/object-oriented-programming-lab-5.pdf",
     size: 129,
@@ -823,7 +845,7 @@ const materials = [
     topic: "Java file handling",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP Object oriented programming chapter four chapter 6 Java file handling",
+      "SOEng3061 oop chapter six oop chapter 6 oop Java file handling Object oriented programming chapter six Object oriented programming chapter 6 Object oriented programming Java file handling",
     format: "pdf",
     path: "/docs/object-oriented-programming-chapter-6.pdf",
     size: 252,
@@ -839,7 +861,7 @@ const materials = [
     topic: "OOP Mini-project",
     code: "SOEng3061",
     search:
-      "SOEng3061 OOP mini-project oop mini project Object oriented programming mini-project mini project",
+      "SOEng3061 oop mini-project oop mini project Object oriented programming mini-project mini project",
     format: "pdf",
     path: "/docs/object-oriented-programming-mini-project.pdf",
     size: 252,
@@ -848,6 +870,7 @@ const materials = [
     isLabExercise: false,
     isWorkBook: false,
   },
+
   // Software engineering tools and practices
   {
     id: "SOEng3051CH1",
@@ -856,7 +879,7 @@ const materials = [
     topic: "Introduction to software engineering tools and practices",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter one setp chapter 1 setp Introduction to software engineering tools and practices  Software engineering tools and practices chapter one software engineering tools and practices chapter 1 software engineering tools and practices Introduction to software engineering tools and practices",
+      "SOEng3051 setp chapter one setp chapter 1 setp Introduction to software engineering tools and practices Software engineering tools and practices chapter one Software engineering tools and practices chapter 1 Software engineering tools and practices Introduction to software engineering tools and practices",
     format: "pdf",
     path: "/docs/software-engineering-tools-and-practices-chapter-1.pdf",
     size: 510,
@@ -872,7 +895,7 @@ const materials = [
     topic: "UML review - Class diagram",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter two setp chapter 2 setp UML review  class diagram setp uml review - class diagram setp class diagram  Software engineering tools and practices chapter two software engineering tools and practices chapter 2 software engineering tools and practices UML review  class diagram software engineering tools and practices UML review - class diagram",
+      "SOEng3051 setp chapter two setp chapter 2 setp UML review class diagram Software engineering tools and practices chapter two Software engineering tools and practices chapter 2 Software engineering tools and practices UML review class diagram",
     format: "pdf",
     path: "/docs/software-engineering-tools-and-practices-chapter-2.pdf",
     size: 528,
@@ -888,7 +911,7 @@ const materials = [
     topic: "Synchronizing source code with UML models",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter three setp chapter 3 setp Synchronizing source code with UML models  Software engineering tools and practices chapter three software engineering tools and practices chapter 3 software engineering tools and practices Synchronizing source code with UML models",
+      "SOEng3051 setp chapter three setp chapter 3 setp Synchronizing source code with UML models Software engineering tools and practices chapter three Software engineering tools and practices chapter 3 Software engineering tools and practices Synchronizing source code with UML models",
     format: "pdf",
     path: "/docs/software-engineering-tools-and-practices-chapter-3.pdf",
     size: 235,
@@ -904,7 +927,7 @@ const materials = [
     topic: "Introduction to version control",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter four setp chapter 4 setp Introduction to version control Software engineering tools and practices chapter four software engineering tools and practices chapter 4 software engineering tools and practices Introduction to version control",
+      "SOEng3051 setp chapter four setp chapter 4 setp Introduction to version control Software engineering tools and practices chapter four Software engineering tools and practices chapter 4 Software engineering tools and practices Introduction to version control",
     format: "pdf",
     path: "/docs/software-engineering-tools-and-practices-chapter-4.pdf",
     size: 806,
@@ -920,7 +943,7 @@ const materials = [
     topic: "Introduction to unit testing",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter five setp chapter 5 setp Introduction to unit testing  Software engineering tools and practices chapter five software engineering tools and practices chapter 5 software engineering tools and practices Introduction to unit testing ",
+      "SOEng3051 setp chapter five setp chapter 5 setp Introduction to unit testing Software engineering tools and practices chapter five Software engineering tools and practices chapter 5 Software engineering tools and practices Introduction to unit testing",
     format: "pptx",
     path: "/docs/software-engineering-tools-and-practices-chapter-5.pptx",
     size: 457,
@@ -936,7 +959,7 @@ const materials = [
     topic: "Automating the build process using ANT",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter six setp chapter 6 setp Automating the build process using ANT Software engineering tools and practices chapter six software engineering tools and practices chapter 6 software engineering tools and practices Automating the build process using ANT",
+      "SOEng3051 setp chapter six setp chapter 6 setp Automating the build process using ANT Software engineering tools and practices chapter six Software engineering tools and practices chapter 6 Software engineering tools and practices Automating the build process using ANT",
     format: "pptx",
     path: "/docs/software-engineering-tools-and-practices-chapter-6.pptx",
     size: 198,
@@ -952,7 +975,7 @@ const materials = [
     topic: "Software life cycle",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp chapter seven setp chapter 7 setp Software life cycle Software engineering tools and practices chapter seven software engineering tools and practices chapter 7 software engineering tools and practices Software life cycle",
+      "SOEng3051 setp chapter seven setp chapter 7 setp Software life cycle Software engineering tools and practices chapter seven Software engineering tools and practices chapter 7 Software engineering tools and practices Software life cycle",
     format: "pptx",
     path: "/docs/software-engineering-tools-and-practices-chapter-7.pptx",
     size: 1.2,
@@ -968,7 +991,7 @@ const materials = [
     topic: "SETP Assignment + Presentation",
     code: "SOEng3051",
     search:
-      "SOEng3051 setp assignment software engineering tools and practices assignment",
+      "SOEng3051 setp assignment setp software engineering tools and practices assignment",
     format: "pdf",
     path: "/docs/software-engineering-tools-and-practices-assignment.pdf",
     size: 256,
@@ -1001,7 +1024,7 @@ const materials = [
     topic: "Data communication and computer network",
     code: "SOEng3071",
     search:
-      "SOEng3071 dccn chapter two dccn chapter 2 Data communication and computer network chapter two Data communication and computer network chapter 2",
+      "SOEng3071 dccn chapter two dccn chapter 2 dccn Data communication and computer network Data communication and computer network chapter two Data communication and computer network chapter 2 Data communication and computer network",
     format: "pptx",
     path: "/docs/data-communication-and-computer-network-chapter-2.pptx",
     size: 4.27,
@@ -1065,7 +1088,7 @@ const materials = [
     topic: "IP addressing and subnetting",
     code: "SOEng3071",
     search:
-      "SOEng3071 dccn workbook  dccn IP addressing and subnetting  Data communication and computer network IP addressing and subnetting",
+      "SOEng3071 dccn workbook dccn IP addressing and subnetting Data communication and computer network IP addressing and subnetting",
     format: "pdf",
     path: "/docs/data-communication-and-computer-network-workbook.pdf",
     size: 145,
@@ -1082,7 +1105,7 @@ const materials = [
     topic: "Object based databases",
     code: "SOEng3041",
     search:
-      "SOEng3041 adb chapter one adb chapter 1 adb Object based databases Advanced database systems chapter one Advanced database system chapter one Advanced database chapter one Advanced database systems chapter 1 Advanced database system chapter 1 Advanced database chapter 1 Advanced database systems Object based databases Advanced database system Object based databases Advanced database Object based databases",
+      "SOEng3041 adb chapter one adb chapter 1 adb Object based databases Advanced database systems chapter one Advanced database systems chapter 1 Advanced database systems Object based databases",
     format: "pdf",
     path: "/docs/advanced-database-systems-chapter-1.pdf",
     size: 239,
@@ -1098,7 +1121,7 @@ const materials = [
     topic: "Query optimization",
     code: "SOEng3041",
     search:
-      "SOEng3041 adb chapter two adb chapter 2 adb Query optimization Advanced database systems chapter two Advanced database system chapter two Advanced database chapter two Advanced database systems chapter 2 Advanced database system chapter 2 Advanced database chapter 2 Advanced database systems Query optimization Advanced database system Query optimization Advanced database Query optimization",
+      "SOEng3041 adb chapter two adb chapter 2 adb Query optimization Advanced database systems chapter two Advanced database systems chapter 2 Advanced database systems Query optimization",
     format: "pdf",
     path: "/docs/advanced-database-systems-chapter-2.pdf",
     size: 10.7,
@@ -1114,7 +1137,7 @@ const materials = [
     topic: "Introduction to database transactions",
     code: "SOEng3041",
     search:
-      "SOEng3041 adb chapter three adb chapter 3 adb Introduction to database transactions Advanced database systems chapter three Advanced database system chapter three Advanced database chapter three Advanced database systems chapter 3 Advanced database system chapter 3 Advanced database chapter 3 Advanced database systems Introduction to database transactions Advanced database system Introduction to database transactions Advanced database Introduction to database transactions",
+      "SOEng3041 adb chapter three adb chapter 3 adb Introduction to database transactions Advanced database systems chapter three Advanced database systems chapter 3 Advanced database systems Introduction to database transactions",
     format: "pptx",
     path: "/docs/advanced-database-systems-chapter-3.pptx",
     size: 410,
@@ -1130,7 +1153,7 @@ const materials = [
     topic: "Database security and authorization",
     code: "SOEng3041",
     search:
-      "SOEng3041 adb chapter four adb chapter 4 adb Database security and authorization Advanced database systems chapter four Advanced database system chapter four Advanced database chapter four Advanced database systems chapter 4 Advanced database system chapter 4 Advanced database chapter 4 Advanced database systems Database security and authorization Advanced database system Database security and authorization Advanced database Database security and authorization",
+      "SOEng3041 adb chapter four adb chapter 4 adb Database security and authorization Advanced database systems chapter four Advanced database systems chapter 4 Advanced database systems Database security and authorization",
     format: "pptx",
     path: "/docs/advanced-database-systems-chapter-4.ppt",
     size: 0.88,
@@ -1146,7 +1169,7 @@ const materials = [
     topic: "Distributed databases",
     code: "SOEng3041",
     search:
-      "SOEng3041 adb chapter four adb chapter 5 adb Distributed databases Advanced database systems chapter four Advanced database system chapter four Advanced database chapter four Advanced database systems chapter 5 Advanced database system chapter 5 Advanced database chapter 5 Advanced database systems Distributed databases Advanced database system Distributed databases Advanced database Distributed databases",
+      "SOEng3041 adb chapter five adb chapter 5 adb Distributed databases Advanced database systems chapter five Advanced database systems chapter 5 Advanced database systems Distributed databases",
     format: "pptx",
     path: "/docs/advanced-database-systems-chapter-5.ppt",
     size: 664,
@@ -1161,8 +1184,7 @@ const materials = [
     chapter: 0,
     topic: "ADB Assignment + Presentation",
     code: "SOEng3041",
-    search:
-      "SOEng3041 adb assignment Advanced database system assignment Advanced database assignment Advanced database systems assignment",
+    search: "SOEng3041 adb assignment Advanced database systems assignment",
     format: "docx",
     path: "/docs/advanced-database-systems-assignment.docx",
     size: 34.1,
@@ -1393,6 +1415,22 @@ const materials = [
     format: "pdf",
     path: "/docs/design-and-analysis-of-algorithm-chapter-4.pdf",
     size: 1.3,
+    unit: "MB",
+    isAssignment: false,
+    isLabExercise: false,
+    isWorkBook: false,
+  },
+  {
+    id: "SOEng3021CH5",
+    name: "Design and analysis of algorithm",
+    chapter: 5,
+    topic: "Placeholder topic for chapter 5",
+    code: "SOEng3021",
+    search:
+      "SOEng3021 daa chapter five daa chapter 5 daa Placeholder topic for chapter 5 Design and analysis of algorithm chapter five Design and analysis of algorithm chapter 5 Design and analysis of algorithm Placeholder topic for chapter 5",
+    format: "pdf",
+    path: "/docs/design-and-analysis-of-algorithm-chapter-5.pdf",
+    size: 1.0,
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
