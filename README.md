@@ -30,6 +30,7 @@ A sleek web app for browsing, previewing, and downloading university documents b
 - 🎯 Categorized by academic years for easy, organized browsing
 - 🧾 Supports `pdf`, `pptx`, `docx`, `xml`,and more
 - 📥 Download or preview with one click
+- 💯 Perfect Lighthouse scores — 100 in Performance, Accessibility, Best Practices, and SEO
 - 📱 Fully responsive UI
 
 ## 📦 Getting Started
