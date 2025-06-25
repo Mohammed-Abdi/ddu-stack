@@ -3,14 +3,11 @@ import Doc from "../../assets/file-icon/Doc.jsx";
 import Pdf from "../../assets/file-icon/Pdf.jsx";
 import Pptx from "../../assets/file-icon/Pptx.jsx";
 import Xml from "../../assets/file-icon/Xml.jsx";
-import Download from "../../assets/material-icon/Download.jsx";
-import Read from "../../assets/material-icon/Read.jsx";
 import More from "../../assets/material-icon/More.jsx";
 import Close from "../../assets/material-icon/Close.jsx";
 import Project from "../../assets/file-icon/Project.jsx";
 import LabExercise from "../../assets/file-icon/Lab.jsx";
 import { useState } from "react";
-import Properties from "../../assets/material-icon/Properties.jsx";
 
 function Material({
   code,
