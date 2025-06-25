@@ -20,6 +20,7 @@ function Material({
   unit,
   isLabExercise,
   isAssignment,
+  isWorkBook,
 }) {
   const [miniWindowIsOpen, setMiniWindowIsOpen] = useState(false);
   const [downloadWindowIsOpen, setDownloadWindowIsOpen] = useState(false);
