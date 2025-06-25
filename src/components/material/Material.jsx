@@ -6,8 +6,8 @@ import Xml from "../../assets/file-icon/Xml.jsx";
 import More from "../../assets/material-icon/More.jsx";
 import Close from "../../assets/material-icon/Close.jsx";
 import Project from "../../assets/file-icon/Project.jsx";
-import LabExercise from "../../assets/file-icon/Lab.jsx";
-import Slide from "../../assets/file-icon/Slide.jsx";
+import Workbook from "../../assets/file-icon/Workbook.jsx";
+import LabEx from "../../assets/file-icon/LabExercise.jsx";
 import { useState } from "react";
 
 function Material({
@@ -46,11 +46,11 @@ function Material({
         <div className="material-info-wrapper">
           <div className="material-icon">
             {isLabExercise ? (
-              <LabExercise />
+              <LabEx />
             ) : isAssignment ? (
               <Project />
             ) : isWorkBook ? (
-              <Slide className="material-icon" />
+              <Workbook className="material-icon" />
             ) : format === "pdf" ? (
               <Pdf />
             ) : format === "pptx" ? (
@@ -85,11 +85,11 @@ function Material({
       >
         <div className="material-title">
           {isLabExercise ? (
-            <LabExercise className="material-icon" />
+            <LabEx className="material-icon" />
           ) : isAssignment ? (
             <Project className="material-icon" />
           ) : isWorkBook ? (
-            <Slide className="material-icon" />
+            <Workbook className="material-icon" />
           ) : format === "pdf" ? (
             <Pdf className="material-icon" />
           ) : format === "pptx" ? (
