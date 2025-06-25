@@ -13,6 +13,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2022CH2",
@@ -28,6 +29,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2022CH3",
@@ -43,6 +45,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2022CH4",
@@ -58,6 +61,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2022CH5",
@@ -73,6 +77,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2022CH6",
@@ -88,6 +93,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2022CH7",
@@ -103,6 +109,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2042CH1",
@@ -118,6 +125,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2042CH2",
@@ -132,6 +140,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2042CH3",
@@ -147,6 +156,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2042CH4",
@@ -162,6 +172,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2042CH1-4",
@@ -177,6 +188,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH1",
@@ -192,6 +204,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH2",
@@ -207,6 +220,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH3",
@@ -222,6 +236,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH4",
@@ -237,6 +252,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH5",
@@ -252,6 +268,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH6",
@@ -267,6 +284,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH7",
@@ -282,6 +300,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH8",
@@ -297,6 +316,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2054CH9",
@@ -312,6 +332,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "ECEG2142CH1",
@@ -327,6 +348,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "ECEG2142CH2",
@@ -342,6 +364,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "ECEG2142CH3",
@@ -356,6 +379,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "ECEG2142CH4",
@@ -371,6 +395,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "ECEG2142CH5",
@@ -386,6 +411,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2052CH1-8",
@@ -401,6 +427,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2032CH1",
@@ -415,6 +442,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2032CH2",
@@ -429,6 +457,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2032CH3",
@@ -443,6 +472,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2032CH4",
@@ -457,6 +487,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2032CH5",
@@ -471,6 +502,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2032CH6",
@@ -486,6 +518,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2051CH1",
@@ -501,6 +534,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2051CH2",
@@ -516,6 +550,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2051CH3",
@@ -531,6 +566,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2051CH4",
@@ -546,6 +582,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2051CH5",
@@ -561,6 +598,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2051CH6",
@@ -576,6 +614,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2021CH1",
@@ -591,6 +630,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2021CH2",
@@ -606,6 +646,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2021CH3",
@@ -620,6 +661,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2021CH4",
@@ -634,6 +676,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng2021CH5",
@@ -649,6 +692,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3061CH1",
@@ -664,6 +708,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3061CH2",
@@ -679,6 +724,7 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3061CH3",
@@ -694,6 +740,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3061CH4",
@@ -709,9 +756,10 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
-    id: "SOEng3061CH4L",
+    id: "SOEng3061L4",
     name: "Object oriented programming",
     chapter: 4,
     topic: "Lab Exercise: Abstraction and encapsulation",
@@ -724,6 +772,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: true,
+    isWorkBook: false,
   },
   {
     id: "SOEng3061CH5",
@@ -739,9 +788,10 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
-    id: "SOEng3061CH5L",
+    id: "SOEng3061L5",
     name: "Object oriented programming",
     chapter: 5,
     topic: "Lab Exercise: Java exception handling",
@@ -754,6 +804,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: true,
+    isWorkBook: false,
   },
   {
     id: "SOEng3061CH6",
@@ -769,9 +820,10 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
-    id: "SOEng3061CHP",
+    id: "SOEng3061A",
     name: "Object oriented programming",
     chapter: 0,
     topic: "OOP Mini-project",
@@ -784,6 +836,7 @@ const materials = [
     unit: "KB",
     isAssignment: true,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH1",
@@ -799,6 +852,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH2",
@@ -814,6 +868,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH3",
@@ -829,6 +884,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH4",
@@ -844,6 +900,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH5",
@@ -859,6 +916,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH6",
@@ -874,6 +932,7 @@ const materials = [
     unit: "KB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3051CH7",
@@ -889,9 +948,10 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
-    id: "SOEng3051CHA",
+    id: "SOEng3051A",
     name: "Software engineering tools and practices",
     chapter: 0,
     topic: "SETP Assignment + Presentation",
@@ -904,6 +964,7 @@ const materials = [
     unit: "KB",
     isAssignment: true,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3071CH1",
@@ -915,10 +976,11 @@ const materials = [
       "SOEng3071 dccn chapter one dccn chapter 1 dccn Introduction to Data communication and computer network Data communication and computer network chapter one Data communication and computer network chapter 1 Data communication and computer network Introduction to Data communication and computer network",
     format: "pptx",
     path: "/docs/data-communication-and-computer-network-chapter-1.pptx",
-    size: 2.0,
+    size: 2.01,
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3071CH2",
@@ -930,10 +992,11 @@ const materials = [
       "SOEng3071 dccn chapter two dccn chapter 2 Data communication and computer network chapter two Data communication and computer network chapter 2",
     format: "pptx",
     path: "/docs/data-communication-and-computer-network-chapter-2.pptx",
-    size: 4.3,
+    size: 4.27,
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
   },
   {
     id: "SOEng3071CH3",
@@ -949,6 +1012,55 @@ const materials = [
     unit: "MB",
     isAssignment: false,
     isLabExercise: false,
+    isWorkBook: false,
+  },
+  {
+    id: "SOEng3071CH4",
+    name: "Data communication and computer network",
+    chapter: 4,
+    topic: "Network protocols",
+    code: "SOEng3071",
+    search:
+      "SOEng3071 dccn chapter four dccn chapter 4 dccn Network protocols Data communication and computer network chapter four Data communication and computer network chapter 4 Data communication and computer network Network protocols",
+    format: "pptx",
+    path: "/docs/data-communication-and-computer-network-chapter-4.pptx",
+    size: 1.06,
+    unit: "MB",
+    isAssignment: false,
+    isLabExercise: false,
+    isWorkBook: false,
+  },
+  {
+    id: "SOEng3071CH5",
+    name: "Data communication and computer network",
+    chapter: 5,
+    topic: "Network protocols",
+    code: "SOEng3071",
+    search:
+      "SOEng3071 dccn chapter five dccn chapter 5 dccn Network protocols Data communication and computer network chapter five Data communication and computer network chapter 5 Data communication and computer network Network protocols",
+    format: "pptx",
+    path: "/docs/data-communication-and-computer-network-chapter-5.pptx",
+    size: 416,
+    unit: "KB",
+    isAssignment: false,
+    isLabExercise: false,
+    isWorkBook: false,
+  },
+  {
+    id: "SOEng3071WB",
+    name: "Data communication and computer network",
+    chapter: 0,
+    topic: "IP addressing and subnetting",
+    code: "SOEng3071",
+    search:
+      "SOEng3071 dccn workbook  dccn IP addressing and subnetting  Data communication and computer network IP addressing and subnetting",
+    format: "pdf",
+    path: "/docs/data-communication-and-computer-network-workbook.pdf",
+    size: 145,
+    unit: "KB",
+    isAssignment: false,
+    isLabExercise: false,
+    isWorkBook: true,
   },
 ];
 
