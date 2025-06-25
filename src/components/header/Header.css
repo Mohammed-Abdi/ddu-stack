@@ -8,7 +8,7 @@ header {
   width: 100%;
   padding: var(--padding-md);
   margin-inline: auto;
-  border-bottom: 1px solid var(--dark-tr);
+  border-bottom: 1px solid var(--border-light);
   background-color: var(--light-clr);
   z-index: 1;
 }
