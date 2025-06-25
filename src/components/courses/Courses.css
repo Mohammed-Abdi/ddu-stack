@@ -25,7 +25,7 @@
   width: min(500px, 100% - 20px);
   height: 75vh;
   background-color: var(--light-clr);
-  border: 1px dotted var(--dark-clr);
+  border: 1px solid var(--border-light);
   border-radius: var(--padding-bg);
   padding: calc(var(--padding-md) * 3);
   display: flex;
