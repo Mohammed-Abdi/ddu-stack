@@ -9,6 +9,7 @@
   padding: var(--padding-md);
   border-radius: var(--padding-md);
   width: 100%;
+  cursor: default;
 }
 
 /* Section: Info Wrapper */
