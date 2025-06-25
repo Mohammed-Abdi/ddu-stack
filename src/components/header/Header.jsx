@@ -23,6 +23,7 @@ function Header({ menuIsOpen, onMenu }) {
           rel="noopener noreferrer"
           target="_blank"
           className="icon-wrapper hover-over"
+          aria-label="View GitHub repository"
         >
           <Github className="icon" />
         </a>
