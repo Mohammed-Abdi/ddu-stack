@@ -4,9 +4,9 @@ nav {
   top: 0;
   left: 0;
   height: 100vh;
-  width: min(300px, 100%);
+  width: min(250px, 100%);
   background-color: var(--light-clr);
-  border-right: 1px solid var(--dark-tr);
+  border-right: 1px solid var(--border-light);
   border-radius: 0 var(--padding-sm) var(--padding-sm) 0;
   padding-block: 4rem 2rem;
   padding-inline: 0 var(--padding-bg);
