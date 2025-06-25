@@ -7,6 +7,7 @@ import More from "../../assets/material-icon/More.jsx";
 import Close from "../../assets/material-icon/Close.jsx";
 import Project from "../../assets/file-icon/Project.jsx";
 import LabExercise from "../../assets/file-icon/Lab.jsx";
+import Slide from "../../assets/file-icon/Slide.jsx";
 import { useState } from "react";
 
 function Material({
@@ -48,6 +49,8 @@ function Material({
               <LabExercise />
             ) : isAssignment ? (
               <Project />
+            ) : isWorkBook ? (
+              <Slide className="material-icon" />
             ) : format === "pdf" ? (
               <Pdf />
             ) : format === "pptx" ? (
@@ -85,6 +88,8 @@ function Material({
             <LabExercise className="material-icon" />
           ) : isAssignment ? (
             <Project className="material-icon" />
+          ) : isWorkBook ? (
+            <Slide className="material-icon" />
           ) : format === "pdf" ? (
             <Pdf className="material-icon" />
           ) : format === "pptx" ? (
