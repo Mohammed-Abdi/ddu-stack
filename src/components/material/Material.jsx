@@ -35,14 +35,14 @@ function Material({
   function handleMiniWindowIsOpen() {
     setMiniWindowIsOpen((value) => !value);
   }
-  function handleDetail() {
+  function handleMost() {
     setMiniWindowIsOpen((value) => !value);
     if (downloadWindowIsOpen) setDownloadWindowIsOpen((value) => !value);
     if (detailWindowIsOpen) setDetailWindowIsOpen((value) => !value);
   }
   return (
     <>
-      <div className="material" onClick={handleDetail}>
+      <div className="material" onClick={handleMost}>
         <div className="material-info-wrapper">
           <div className="material-icon">
             {isLabExercise ? (
@@ -119,7 +119,7 @@ function Material({
       </div>
       <div
         className={`material-details ${!detailWindowIsOpen ? "closed" : ""}`}
-        onClick={handleDetail}
+        onClick={handleMost}
       >
         <Close className="close-icon hover-over" />
         <span className="title">Document Properties</span>
@@ -134,12 +134,13 @@ function Material({
       </div>
       <div
         className={`download-window ${!downloadWindowIsOpen ? "closed" : ""}`}
-        onClick={handleDetail}
       >
         <span className="notice">Download {size + " " + unit} ?</span>
         <div className="decisions">
-          <div className="cancel-btn">Cancel</div>
-          <a href={path} download>
+          <div className="cancel-btn" onClick={handleMost}>
+            Cancel
+          </div>
+          <a href={path} download onClick={handleDownloadWindow}>
             <div className="download-btn">Download</div>
           </a>
         </div>
