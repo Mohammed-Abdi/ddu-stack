@@ -10,7 +10,7 @@
   width: 100%;
   padding: 1rem;
   padding-left: calc(var(--padding-bg) * 3); /* leave space for the icon */
-  border: none;
+  border: 1px solid var(--border-light);
   background-color: var(--dark-tr);
   border-radius: 50px;
 }
