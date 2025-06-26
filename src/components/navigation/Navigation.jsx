@@ -13,7 +13,7 @@ function Navigation({ isOpen, onMenu }) {
         </li>
         <li>
           <AboutIcon className="icon" />
-          About
+          <a href="#about">About</a>
         </li>
         <li>
           <ContactIcon className="icon" />

@@ -9,7 +9,7 @@ nav {
   border-right: 1px solid var(--border-light);
   border-radius: 0 var(--padding-sm) var(--padding-sm) 0;
   padding-block: 4rem 2rem;
-  padding-inline: 0 var(--padding-bg);
+  padding-inline: var(--padding-md);
   z-index: 1;
   transition: all 0.3s ease-in-out;
 }
@@ -41,7 +41,7 @@ nav ul li {
   gap: var(--padding-sm);
   flex-grow: 1;
   padding-block: var(--padding-md);
-  padding-left: var(--padding-bg);
+  padding-left: var(--padding-md);
   font-size: 0.875rem;
   border-radius: var(--padding-sm);
   cursor: pointer;
