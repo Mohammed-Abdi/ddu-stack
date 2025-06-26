@@ -1,6 +1,7 @@
 import AboutIcon from "../../assets/material-icon/About.jsx";
 import ContactIcon from "../../assets/material-icon/Contact.jsx";
 import HomeIcon from "../../assets/material-icon/Home.jsx";
+import Info from "../../assets/material-icon/Info.jsx";
 import "./Navigation.css";
 
 function Navigation({ isOpen, onMenu }) {
@@ -12,8 +13,12 @@ function Navigation({ isOpen, onMenu }) {
           <a href="#">Home</a>
         </li>
         <li>
-          <AboutIcon className="icon" />
+          <Info className="icon" />
           <a href="#about">About</a>
+        </li>
+        <li>
+          <AboutIcon className="icon" />
+          <a href="#faq">FAQ</a>
         </li>
         <li>
           <ContactIcon className="icon" />
