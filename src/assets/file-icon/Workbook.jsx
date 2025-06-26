@@ -4,116 +4,71 @@ export default function Workbook(props) {
       xmlns="http://www.w3.org/2000/svg"
       width={32}
       height={32}
-      viewBox="0 0 24 24"
+      viewBox="0 0 32 32"
       {...props}
     >
       <g fill="none">
         <path
-          fill="url(#fluentColorDocumentEdit240)"
-          d="M14.188 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h7l2 5l5 2v7.188z"
+          fill="url(#fluentColorNotebook320)"
+          d="M26 8h2.25a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-.75.75H26zm2.25 6H26v4h2.25a.75.75 0 0 0 .75-.75v-2.5a.75.75 0 0 0-.75-.75M26 20h2.25a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-.75.75H26z"
         ></path>
         <path
-          fill="url(#fluentColorDocumentEdit246)"
+          fill="url(#fluentColorNotebook321)"
+          d="M7.25 2A3.25 3.25 0 0 0 4 5.25v21.5A3.25 3.25 0 0 0 7.25 30h16.5A3.25 3.25 0 0 0 27 26.75V5.25A3.25 3.25 0 0 0 23.75 2z"
+        ></path>
+        <path
+          fill="url(#fluentColorNotebook323)"
           fillOpacity={0.5}
-          d="M14.188 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h7l2 5l5 2v7.188z"
+          d="M7.25 2A3.25 3.25 0 0 0 4 5.25v21.5A3.25 3.25 0 0 0 7.25 30h16.5A3.25 3.25 0 0 0 27 26.75V5.25A3.25 3.25 0 0 0 23.75 2z"
         ></path>
         <path
-          fill="url(#fluentColorDocumentEdit241)"
-          d="M13 7.5V2l7 7h-5.5A1.5 1.5 0 0 1 13 7.5"
-        ></path>
-        <path
-          fill="url(#fluentColorDocumentEdit242)"
-          d="M20.585 14.456h-3.241l-4.142 4.146a3 3 0 0 0-.178.196v3.208h3.25a3 3 0 0 0 .171-.157l4.14-4.144z"
-        ></path>
-        <path
-          fill="url(#fluentColorDocumentEdit243)"
-          d="M16.28 21.998a2.7 2.7 0 0 1-1.087.556l-1.837.46a1.09 1.09 0 0 1-1.322-1.324l.459-1.84a2.7 2.7 0 0 1 .534-1.06a4.3 4.3 0 0 0 3.252 3.208"
-        ></path>
-        <path
-          fill="url(#fluentColorDocumentEdit244)"
-          d="m17.574 14.235l1.56-1.562a2.29 2.29 0 0 1 3.244 0c.896.896.896 2.35 0 3.246l-1.44 1.443z"
-        ></path>
-        <path
-          fill="url(#fluentColorDocumentEdit245)"
-          d="M21.824 16.477a4.3 4.3 0 0 1-3.262-3.249l-1.227 1.228a4.3 4.3 0 0 0 3.263 3.249z"
+          fill="url(#fluentColorNotebook322)"
+          d="M10 7h11a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1"
         ></path>
         <defs>
           <linearGradient
-            id="fluentColorDocumentEdit240"
-            x1={15.2}
-            x2={16.822}
+            id="fluentColorNotebook320"
+            x1={26}
+            x2={40.085}
+            y1={-1.455}
+            y2={26.107}
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stopColor="#d373fc"></stop>
+            <stop offset={1} stopColor="#2052cb"></stop>
+          </linearGradient>
+          <linearGradient
+            id="fluentColorNotebook321"
+            x1={1.125}
+            x2={-0.306}
             y1={2}
-            y2={18.87}
+            y2={33.347}
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#fb68ff"></stop>
-            <stop offset={1} stopColor="#ba0189"></stop>
+            <stop stopColor="#e587f2"></stop>
+            <stop offset={1} stopColor="#816cde"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorDocumentEdit241"
-            x1={16.488}
-            x2={14.738}
-            y1={4.917}
-            y2={7.833}
+            id="fluentColorNotebook322"
+            x1={11.438}
+            x2={20.88}
+            y1={7}
+            y2={15.278}
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#fcabff"></stop>
-            <stop offset={1} stopColor="#fdb9ff"></stop>
-          </linearGradient>
-          <linearGradient
-            id="fluentColorDocumentEdit242"
-            x1={15.03}
-            x2={18.73}
-            y1={16.308}
-            y2={20.018}
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#ffa43d"></stop>
-            <stop offset={1} stopColor="#fb5937"></stop>
-          </linearGradient>
-          <linearGradient
-            id="fluentColorDocumentEdit243"
-            x1={11.387}
-            x2={14.456}
-            y1={19.976}
-            y2={23.042}
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop offset={0.255} stopColor="#ffd394"></stop>
-            <stop offset={1} stopColor="#ff921f"></stop>
-          </linearGradient>
-          <linearGradient
-            id="fluentColorDocumentEdit244"
-            x1={21.904}
-            x2={19.926}
-            y1={13.116}
-            y2={15.016}
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#f97dbd"></stop>
-            <stop offset={1} stopColor="#dd3ce2"></stop>
-          </linearGradient>
-          <linearGradient
-            id="fluentColorDocumentEdit245"
-            x1={19.657}
-            x2={16.488}
-            y1={16.292}
-            y2={14.902}
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#ff921f"></stop>
-            <stop offset={1} stopColor="#ffe994"></stop>
+            <stop stopColor="#fdd3ff"></stop>
+            <stop offset={1} stopColor="#f3d8ff"></stop>
           </linearGradient>
           <radialGradient
-            id="fluentColorDocumentEdit246"
+            id="fluentColorNotebook323"
             cx={0}
             cy={0}
             r={1}
-            gradientTransform="matrix(-8.66665 9.09357 -5.3691 -5.11703 20.667 2.625)"
+            gradientTransform="matrix(8.86458 31.02275 -148.45811 42.4211 14.542 .25)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset={0.362} stopColor="#b600bc"></stop>
-            <stop offset={1} stopColor="#b600bc" stopOpacity={0}></stop>
+            <stop offset={0.5} stopColor="#dd3ce2" stopOpacity={0}></stop>
+            <stop offset={1} stopColor="#dd3ce2"></stop>
           </radialGradient>
         </defs>
       </g>

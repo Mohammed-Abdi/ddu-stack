@@ -1,3 +1,9 @@
+import Check from "../../assets/material-icon/Check";
+import Folder from "../../assets/material-icon/Folder.jsx";
+import Phone from "../../assets/material-icon/Phone";
+import PieChart from "../../assets/material-icon/PieChart.jsx";
+import Preview from "../../assets/material-icon/Preview.jsx";
+import Rocket from "../../assets/material-icon/Rocket";
 import "./About.css";
 
 function About() {
@@ -15,15 +21,24 @@ function About() {
 
       <div className="stats">
         <div className="stat">
-          <h3>📁 90+</h3>
+          <h3>
+            <Folder />
+            90+
+          </h3>
           <p>Course Files</p>
         </div>
         <div className="stat">
-          <h3>⏱️ Instant</h3>
+          <h3>
+            <Preview />
+            Instant
+          </h3>
           <p>File Previews</p>
         </div>
         <div className="stat">
-          <h3>⚡ 100%</h3>
+          <h3>
+            <Check />
+            100%
+          </h3>
           <p>Free Access</p>
         </div>
       </div>
@@ -32,22 +47,30 @@ function About() {
         <h3 className="features-heading">Platform Highlights</h3>
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="icon">⚡</div>
+            <div className="icon">
+              <Preview />
+            </div>
             <h4>Instant Preview</h4>
             <p>Preview files instantly before downloading.</p>
           </div>
           <div className="feature-card">
-            <div className="icon">📂</div>
+            <div className="icon">
+              <PieChart />
+            </div>
             <h4>Organized by Course</h4>
             <p>Everything sorted by year and subject.</p>
           </div>
           <div className="feature-card">
-            <div className="icon">📱</div>
+            <div className="icon">
+              <Phone />
+            </div>
             <h4>Mobile Friendly</h4>
             <p>Fully responsive design that works on any device.</p>
           </div>
           <div className="feature-card">
-            <div className="icon">🚀</div>
+            <div className="icon">
+              <Rocket />
+            </div>
             <h4>Super Fast</h4>
             <p>Built for performance — everything loads instantly.</p>
           </div>

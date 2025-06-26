@@ -4,118 +4,118 @@ export default function Database(props) {
       xmlns="http://www.w3.org/2000/svg"
       width={32}
       height={32}
-      viewBox="0 0 16 16"
+      viewBox="0 0 32 32"
       {...props}
     >
       <g fill="none">
         <path
-          fill="url(#fluentColorBookDatabase160)"
-          d="M3.5 12.5h9.313s-.313.5-.313 1s.313 1 .313 1H5A1.5 1.5 0 0 1 3.5 13z"
+          fill="url(#fluentColorBookDatabase320)"
+          d="M6 25h20.688S26 25.4 26 27s.688 2 .688 2H9a3 3 0 0 1-3-3z"
         ></path>
         <path
-          fill="url(#fluentColorBookDatabase161)"
-          d="M11 1H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7.5a.5.5 0 0 0 0-1H5a1 1 0 0 1-1-1v-.003h8.5a.5.5 0 0 0 .5-.5V3a2 2 0 0 0-2-2"
+          fill="url(#fluentColorBookDatabase321)"
+          d="M9 28a2 2 0 0 1-2-2h18.25A1.75 1.75 0 0 0 27 24.25V6a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v20a4 4 0 0 0 4 4h17a1 1 0 1 0 0-2z"
         ></path>
         <path
-          fill="url(#fluentColorBookDatabase162)"
-          d="M6 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"
+          fill="url(#fluentColorBookDatabase322)"
+          d="M10.75 6A1.75 1.75 0 0 0 9 7.75v2.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0 0 23 10.25v-2.5A1.75 1.75 0 0 0 21.25 6z"
         ></path>
         <path
-          fill="url(#fluentColorBookDatabase165)"
+          fill="url(#fluentColorBookDatabase325)"
           fillOpacity={0.3}
-          d="M11 1H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7.5a.5.5 0 0 0 .5-.5V3a2 2 0 0 0-2-2"
+          d="M27 6a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v20a4 4 0 0 0 4 4h17a1 1 0 0 0 1-1z"
         ></path>
         <path
-          fill="url(#fluentColorBookDatabase166)"
+          fill="url(#fluentColorBookDatabase326)"
           fillOpacity={0.3}
-          d="M11 1H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7.5a.5.5 0 0 0 .5-.5V3a2 2 0 0 0-2-2"
+          d="M27 6a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v20a4 4 0 0 0 4 4h17a1 1 0 0 0 1-1z"
         ></path>
         <path
-          fill="url(#fluentColorBookDatabase163)"
-          d="M15.168 9.142c-.99.55-2.288.858-3.668.858s-2.679-.309-3.668-.858A4.6 4.6 0 0 1 7 8.554v4.945C7 14.88 9.015 16 11.5 16s4.5-1.12 4.5-2.5l.001-4.946a4.5 4.5 0 0 1-.833.589"
+          fill="url(#fluentColorBookDatabase323)"
+          d="M17 28c0 .546.34 1.059.936 1.5c1.21.897 3.473 1.5 6.064 1.5c3.866 0 7-1.343 7-3v-9c-.436.33-.936.603-1.46.827l-.04.018c-.6.253-1.274.462-2 .621a16.5 16.5 0 0 1-3.5.361c-2.086 0-4.046-.36-5.54-1A7 7 0 0 1 17 19z"
         ></path>
         <path
-          fill="url(#fluentColorBookDatabase164)"
-          d="M14 6.42a6.5 6.5 0 0 0-1.12-.3A8 8 0 0 0 11.5 6C9.015 6 7 7.12 7 8.5S9.015 11 11.5 11S16 9.88 16 8.5c0-.867-.794-1.63-2-2.08"
+          fill="url(#fluentColorBookDatabase324)"
+          d="M27.5 21.599c.772-.192 1.45-.445 2-.743c.94-.51 1.5-1.155 1.5-1.856c0-.7-.56-1.345-1.5-1.856c-.55-.298-1.228-.551-2-.743A14.7 14.7 0 0 0 24 16c-3.866 0-7 1.343-7 3s3.134 3 7 3c1.275 0 2.47-.146 3.5-.401"
         ></path>
         <defs>
           <linearGradient
-            id="fluentColorBookDatabase160"
-            x1={9.5}
-            x2={9.5}
-            y1={14}
-            y2={12}
+            id="fluentColorBookDatabase320"
+            x1={15.565}
+            x2={15.565}
+            y1={28.2}
+            y2={25}
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#75C3FF"></stop>
+            <stop stopColor="#9deaff"></stop>
             <stop offset={0.716} stopColor="#c5e2ff"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorBookDatabase161"
-            x1={6.45}
-            x2={18.146}
-            y1={3.619}
-            y2={17.134}
+            id="fluentColorBookDatabase321"
+            x1={12.591}
+            x2={16.974}
+            y1={7.239}
+            y2={37.373}
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="#20ac9d"></stop>
             <stop offset={1} stopColor="#2052cb"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorBookDatabase162"
-            x1={7.069}
-            x2={9.5}
-            y1={2.485}
-            y2={8.125}
+            id="fluentColorBookDatabase322"
+            x1={13.828}
+            x2={20.922}
+            y1={4.971}
+            y2={15.271}
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#A6D8FF"></stop>
-            <stop offset={1} stopColor="#0c93ff"></stop>
+            <stop stopColor="#9ff0f9"></stop>
+            <stop offset={1} stopColor="#6ce0ff"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorBookDatabase163"
-            x1={9.125}
-            x2={14.375}
-            y1={6.875}
-            y2={15.188}
+            id="fluentColorBookDatabase323"
+            x1={20.305}
+            x2={28.471}
+            y1={16.297}
+            y2={29.692}
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="#3bd5ff"></stop>
-            <stop offset={1} stopColor="#1A73E8"></stop>
+            <stop offset={1} stopColor="#4894fe"></stop>
           </linearGradient>
           <linearGradient
-            id="fluentColorBookDatabase164"
-            x1={14.5}
-            x2={9}
-            y1={11.5}
-            y2={6}
+            id="fluentColorBookDatabase324"
+            x1={28.667}
+            x2={20.111}
+            y1={22.6}
+            y2={16}
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="#66c0ff"></stop>
             <stop offset={1} stopColor="#c8f3ff"></stop>
           </linearGradient>
           <radialGradient
-            id="fluentColorBookDatabase165"
+            id="fluentColorBookDatabase325"
             cx={0}
             cy={0}
             r={1}
-            gradientTransform="matrix(-2 1.5 -1.71645 -2.2886 9 14)"
+            gradientTransform="matrix(-6.66666 3.75003 -4.0889 -7.26909 19 28)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#1A3EB8"></stop>
-            <stop offset={1} stopColor="#1A3EB8" stopOpacity={0}></stop>
+            <stop stopColor="#4a43cb"></stop>
+            <stop offset={0.443} stopColor="#4a43cb" stopOpacity={0}></stop>
           </radialGradient>
           <radialGradient
-            id="fluentColorBookDatabase166"
+            id="fluentColorBookDatabase326"
             cx={0}
             cy={0}
             r={1}
-            gradientTransform="matrix(0 -5.5 2.83733 0 8 13.5)"
+            gradientTransform="matrix(0 -11.5 5.96562 0 20.5 27)"
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="#171155"></stop>
             <stop offset={0.328} stopColor="#171155"></stop>
-            <stop offset={1} stopColor="#1A3EB8" stopOpacity={0}></stop>
+            <stop offset={1} stopColor="#4a43cb" stopOpacity={0}></stop>
           </radialGradient>
         </defs>
       </g>
