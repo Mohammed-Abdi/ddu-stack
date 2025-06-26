@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <span>&copy;2025 | SE2017 SECTION</span>
+      <span>&copy; 2025 DDU Stack. All rights reserved.</span>
     </footer>
   );
 }
