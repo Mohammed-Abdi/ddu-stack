@@ -8,9 +8,11 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Hover Effect */
-.course:hover {
-  transform: scale(1.05);
+/* Hover Effect only */
+@media (min-width: 768px) {
+  .course:hover {
+    transform: scale(1.05);
+  }
 }
 
 /* Course Text Details (name + code) */
