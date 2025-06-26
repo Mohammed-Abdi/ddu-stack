@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero.jsx";
 import CourseList from "./components/course-list/CourseList.jsx";
 import Navigation from "./components/navigation/Navigation.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import About from "./components/about/About.jsx";
 
 function App() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       <main>
         <Hero />
         <CourseList />
+        <About />
       </main>
       <Footer />
     </>
