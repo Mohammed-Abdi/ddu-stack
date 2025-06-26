@@ -4,6 +4,8 @@
 }
 
 .about-heading {
+  font-size: 1.5rem;
+  color: var(--accent-clr);
   margin-bottom: 2rem;
 }
 
